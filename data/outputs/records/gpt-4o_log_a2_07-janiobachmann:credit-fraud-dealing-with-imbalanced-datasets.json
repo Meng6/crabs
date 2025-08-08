@@ -1,0 +1,692 @@
+[
+    {
+        "inputs": [],
+        "outputs": [
+            "df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [
+            "colors"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [
+            "df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [
+            "original_ytrain",
+            "original_ytest",
+            "original_Xtrain",
+            "sss",
+            "original_Xtest"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [
+            "new_df",
+            "df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "colors",
+            "new_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "new_df",
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "colors",
+            "new_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "colors",
+            "new_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "new_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "new_df"
+        ],
+        "outputs": [
+            "new_df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "new_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "new_df"
+        ],
+        "outputs": [
+            "X_reduced_svd",
+            "y",
+            "X_reduced_tsne",
+            "X_reduced_pca"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_reduced_svd",
+            "y",
+            "X_reduced_pca",
+            "X_reduced_tsne"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "new_df"
+        ],
+        "outputs": [
+            "y",
+            "X"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y",
+            "X"
+        ],
+        "outputs": [
+            "X_train",
+            "y_train",
+            "X_test",
+            "y_test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train",
+            "X_test",
+            "y_test"
+        ],
+        "outputs": [
+            "X_train",
+            "y_train",
+            "X_test",
+            "y_test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "classifiers"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train",
+            "classifiers"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train"
+        ],
+        "outputs": [
+            "grid_log_reg",
+            "knears_neighbors",
+            "svc",
+            "log_reg",
+            "tree_clf",
+            "log_reg_params"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train",
+            "svc",
+            "log_reg",
+            "knears_neighbors",
+            "tree_clf"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "sss",
+            "log_reg",
+            "original_ytrain",
+            "original_Xtrain",
+            "df"
+        ],
+        "outputs": [
+            "undersample_recall",
+            "undersample_f1",
+            "undersample_accuracy",
+            "undersample_precision"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "plot_learning_curve"
+        ]
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train",
+            "knears_neighbors",
+            "svc",
+            "log_reg",
+            "tree_clf"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "plot_learning_curve"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train",
+            "knears_neighbors",
+            "svc",
+            "log_reg",
+            "tree_clf"
+        ],
+        "outputs": [
+            "knears_pred",
+            "log_reg_pred",
+            "svc_pred",
+            "tree_pred"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "log_reg_pred",
+            "y_train",
+            "tree_pred",
+            "knears_pred",
+            "svc_pred"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "tree_pred",
+            "y_train",
+            "log_reg_pred",
+            "knears_pred",
+            "svc_pred"
+        ],
+        "outputs": [
+            "log_fpr",
+            "log_tpr"
+        ],
+        "refers_code": [
+            "graph_roc_curve_multiple"
+        ],
+        "defines_code": [
+            "graph_roc_curve_multiple"
+        ]
+    },
+    {
+        "inputs": [
+            "log_fpr",
+            "log_tpr"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "logistic_roc_curve"
+        ],
+        "defines_code": [
+            "logistic_roc_curve"
+        ]
+    },
+    {
+        "inputs": [
+            "log_reg_pred",
+            "y_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "undersample_recall",
+            "X_train",
+            "y_train",
+            "undersample_accuracy",
+            "undersample_precision",
+            "log_reg",
+            "undersample_f1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "original_Xtest",
+            "log_reg"
+        ],
+        "outputs": [
+            "undersample_y_score"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "undersample_y_score",
+            "original_ytest"
+        ],
+        "outputs": [
+            "undersample_average_precision"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "undersample_average_precision",
+            "undersample_y_score",
+            "original_ytest"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "original_ytrain",
+            "original_Xtrain",
+            "original_ytest",
+            "sss",
+            "original_Xtest",
+            "log_reg_params"
+        ],
+        "outputs": [
+            "best_est"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "original_Xtest",
+            "best_est",
+            "original_ytest"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "original_Xtest",
+            "best_est"
+        ],
+        "outputs": [
+            "y_score"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_score",
+            "original_ytest"
+        ],
+        "outputs": [
+            "average_precision"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "average_precision",
+            "y_score",
+            "original_ytest"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "original_ytrain",
+            "original_Xtrain"
+        ],
+        "outputs": [
+            "ysm_train",
+            "Xsm_train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "ysm_train",
+            "Xsm_train",
+            "grid_log_reg"
+        ],
+        "outputs": [
+            "log_reg_sm"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "svc",
+            "log_reg_sm",
+            "y_test",
+            "X_test",
+            "knears_neighbors",
+            "tree_clf"
+        ],
+        "outputs": [
+            "y_pred_tree",
+            "y_pred_svc",
+            "y_pred_log_reg",
+            "y_pred_knear"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_pred_tree",
+            "y_pred_svc",
+            "y_pred_log_reg",
+            "y_pred_knear",
+            "y_test"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "original_ytest",
+            "log_reg",
+            "y_test",
+            "X_test",
+            "original_Xtest",
+            "best_est"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train"
+        ],
+        "outputs": [
+            "undersample_model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "undersample_model"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "undersample_model"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train",
+            "undersample_model"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "original_Xtest",
+            "undersample_model"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "original_Xtest",
+            "undersample_model"
+        ],
+        "outputs": [
+            "undersample_fraud_predictions"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "plot_confusion_matrix"
+        ]
+    },
+    {
+        "inputs": [
+            "undersample_fraud_predictions",
+            "original_ytest"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "plot_confusion_matrix"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "Xsm_train"
+        ],
+        "outputs": [
+            "oversample_model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "oversample_model"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "oversample_model",
+            "ysm_train",
+            "Xsm_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "original_Xtest",
+            "oversample_model"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "original_Xtest",
+            "oversample_model"
+        ],
+        "outputs": [
+            "oversample_fraud_predictions"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "oversample_fraud_predictions",
+            "original_ytest"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "plot_confusion_matrix"
+        ],
+        "defines_code": []
+    }
+]

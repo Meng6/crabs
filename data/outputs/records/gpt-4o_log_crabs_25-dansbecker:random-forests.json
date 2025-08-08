@@ -1,0 +1,28 @@
+[
+    {
+        "cell": 1,
+        "inputs": [],
+        "outputs": [
+            "train_y",
+            "train_X",
+            "val_X",
+            "val_y"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 2,
+        "inputs": [
+            "train_y",
+            "train_X",
+            "val_X",
+            "val_y"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    }
+]

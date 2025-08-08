@@ -1,0 +1,254 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [
+            "X1",
+            "inertia"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "inertia"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X1"
+        ],
+        "outputs": [
+            "algorithm",
+            "centroids1",
+            "labels1"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "algorithm",
+            "X1"
+        ],
+        "outputs": [
+            "Z",
+            "xx",
+            "yy"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xx",
+            "Z",
+            "yy",
+            "labels1",
+            "centroids1",
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [
+            "inertia",
+            "X2"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "inertia"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X2"
+        ],
+        "outputs": [
+            "algorithm",
+            "centroids2",
+            "labels2"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "algorithm",
+            "X2"
+        ],
+        "outputs": [
+            "Z2",
+            "xx",
+            "yy"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xx",
+            "centroids2",
+            "labels2",
+            "yy",
+            "Z2",
+            "df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [
+            "inertia",
+            "X3"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "inertia"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X3"
+        ],
+        "outputs": [
+            "labels3"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df",
+            "labels3"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    }
+]

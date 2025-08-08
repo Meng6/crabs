@@ -1,0 +1,323 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train",
+            "test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "Y_train",
+            "X_train",
+            "g"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "sns.countplot",
+            "Y_train.value_counts"
+        ]
+    },
+    {
+        "inputs": [
+            "X_train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "X_train.isnull",
+            "X_train.isnull().any().describe"
+        ]
+    },
+    {
+        "inputs": [
+            "test"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "test.isnull",
+            "test.isnull().any().describe"
+        ]
+    },
+    {
+        "inputs": [
+            "X_train",
+            "test"
+        ],
+        "outputs": [
+            "X_train",
+            "test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "test"
+        ],
+        "outputs": [
+            "X_train",
+            "test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "Y_train"
+        ],
+        "outputs": [
+            "Y_train"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "to_categorical"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "random_seed"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "random_seed"
+        ],
+        "outputs": [
+            "X_train",
+            "X_val",
+            "Y_train",
+            "Y_val"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "train_test_split"
+        ]
+    },
+    {
+        "inputs": [
+            "X_train"
+        ],
+        "outputs": [
+            "g"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "plt.imshow"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "model"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "Sequential",
+            "Conv2D",
+            "MaxPool2D",
+            "Dropout",
+            "Flatten",
+            "Dense"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "optimizer"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "RMSprop"
+        ]
+    },
+    {
+        "inputs": [
+            "model",
+            "optimizer"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "model.compile"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "learning_rate_reduction"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "ReduceLROnPlateau"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "epochs",
+            "batch_size"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X_train"
+        ],
+        "outputs": [
+            "datagen"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "ImageDataGenerator",
+            "datagen.fit"
+        ]
+    },
+    {
+        "inputs": [
+            "model",
+            "datagen",
+            "X_train",
+            "Y_train",
+            "batch_size",
+            "epochs",
+            "X_val",
+            "Y_val",
+            "learning_rate_reduction"
+        ],
+        "outputs": [
+            "history"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "model.fit_generator",
+            "datagen.flow"
+        ]
+    },
+    {
+        "inputs": [
+            "plt",
+            "history"
+        ],
+        "outputs": [
+            "fig",
+            "ax",
+            "legend"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "plt.subplots",
+            "ax[0].plot",
+            "ax[1].plot",
+            "ax[0].legend",
+            "ax[1].legend"
+        ]
+    },
+    {
+        "inputs": [
+            "model",
+            "X_val",
+            "Y_val",
+            "confusion_matrix",
+            "itertools"
+        ],
+        "outputs": [
+            "Y_pred",
+            "Y_pred_classes",
+            "Y_true",
+            "confusion_mtx"
+        ],
+        "defines_code": [
+            "plot_confusion_matrix"
+        ],
+        "refers_code": [
+            "model.predict",
+            "np.argmax",
+            "confusion_matrix",
+            "plot_confusion_matrix"
+        ]
+    },
+    {
+        "inputs": [
+            "Y_pred_classes",
+            "Y_true",
+            "Y_pred",
+            "X_val"
+        ],
+        "outputs": [
+            "errors",
+            "Y_pred_classes_errors",
+            "Y_pred_errors",
+            "Y_true_errors",
+            "X_val_errors",
+            "Y_pred_errors_prob",
+            "true_prob_errors",
+            "delta_pred_true_errors",
+            "sorted_dela_errors",
+            "most_important_errors"
+        ],
+        "defines_code": [
+            "display_errors"
+        ],
+        "refers_code": [
+            "np.max",
+            "np.diagonal",
+            "np.take",
+            "np.argsort",
+            "display_errors"
+        ]
+    },
+    {
+        "inputs": [
+            "model",
+            "test"
+        ],
+        "outputs": [
+            "results"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "model.predict",
+            "np.argmax",
+            "pd.Series"
+        ]
+    },
+    {
+        "inputs": [
+            "results"
+        ],
+        "outputs": [
+            "submission"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "pd.concat",
+            "submission.to_csv"
+        ]
+    }
+]

@@ -1,0 +1,245 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "X_train",
+            "Y_train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "test"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "test"
+        ],
+        "outputs": [
+            "X_train",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "test"
+        ],
+        "outputs": [
+            "X_train",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "Y_train"
+        ],
+        "outputs": [
+            "Y_train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "random_seed"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "random_seed"
+        ],
+        "outputs": [
+            "X_train",
+            "Y_train",
+            "X_val",
+            "Y_val"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "optimizer"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model",
+            "optimizer"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "learning_rate_reduction"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "batch_size",
+            "epochs"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train"
+        ],
+        "outputs": [
+            "datagen"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "model",
+            "X_val",
+            "epochs",
+            "Y_val",
+            "learning_rate_reduction",
+            "datagen",
+            "batch_size"
+        ],
+        "outputs": [
+            "history"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "history"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model",
+            "X_val",
+            "Y_val"
+        ],
+        "outputs": [
+            "Y_pred_classes",
+            "Y_true",
+            "Y_pred"
+        ],
+        "refers_code": [
+            "plot_confusion_matrix"
+        ],
+        "defines_code": [
+            "plot_confusion_matrix"
+        ]
+    },
+    {
+        "inputs": [
+            "Y_pred_classes",
+            "Y_true",
+            "X_val",
+            "Y_pred"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "display_errors"
+        ],
+        "defines_code": [
+            "display_errors"
+        ]
+    },
+    {
+        "inputs": [
+            "model",
+            "test"
+        ],
+        "outputs": [
+            "results"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "results"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    }
+]

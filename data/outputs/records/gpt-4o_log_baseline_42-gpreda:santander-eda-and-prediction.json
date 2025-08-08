@@ -1,0 +1,629 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "IS_LOCAL",
+            "PATH"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "PATH"
+        ],
+        "outputs": [
+            "train_df",
+            "test_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "missing_data"
+        ],
+        "defines_code": [
+            "missing_data"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "missing_data",
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "missing_data"
+        ]
+    },
+    {
+        "inputs": [
+            "missing_data",
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "missing_data"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "plot_feature_scatter"
+        ],
+        "defines_code": [
+            "plot_feature_scatter"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "plot_feature_scatter",
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "plot_feature_scatter"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "plot_feature_distribution"
+        ],
+        "defines_code": [
+            "plot_feature_distribution"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "t0",
+            "t1",
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "plot_feature_distribution"
+        ]
+    },
+    {
+        "inputs": [
+            "plot_feature_distribution",
+            "t0",
+            "t1"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "plot_feature_distribution"
+        ]
+    },
+    {
+        "inputs": [
+            "plot_feature_distribution",
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "plot_feature_distribution"
+        ]
+    },
+    {
+        "inputs": [
+            "plot_feature_distribution",
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "plot_feature_distribution"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "t0",
+            "t1"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "t0",
+            "t1"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "t0",
+            "t1"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "t0",
+            "t1"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "t0",
+            "t1"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "t0",
+            "t1"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "t0",
+            "t1"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "t0",
+            "t1"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "t0",
+            "t1"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "correlations"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "correlations"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "correlations"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features",
+            "unique_max_train",
+            "unique_max_test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "unique_max_train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "unique_max_test"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "plot_new_feature_distribution"
+        ],
+        "defines_code": [
+            "plot_new_feature_distribution"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "t0",
+            "t1",
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "plot_new_feature_distribution"
+        ]
+    },
+    {
+        "inputs": [
+            "plot_new_feature_distribution",
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "features"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "plot_new_feature_distribution"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "features",
+            "target"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "param"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df",
+            "target",
+            "features",
+            "param"
+        ],
+        "outputs": [
+            "folds",
+            "oof",
+            "predictions",
+            "feature_importance_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "feature_importance_df"
+        ],
+        "outputs": [
+            "cols",
+            "best_features"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "test_df",
+            "predictions"
+        ],
+        "outputs": [
+            "sub_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

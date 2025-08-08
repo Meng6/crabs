@@ -1,0 +1,5 @@
+metrics,MinIOParser,MaxIOParser,Baseline,CRABS,A1,A2
+precision,1.0,0.3333,1.0,1.0,0.5333,1.0
+recall,1.0,0.3333,1.0,1.0,0.6667,1.0
+f1,1.0,0.3333,1.0,1.0,0.5926,1.0
+accuracy,1.0,0.2,1.0,1.0,0.4211,1.0

@@ -1,0 +1,515 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "outputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "combine"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "combine"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "combine"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "combine"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "guess_ages"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "combine",
+            "train_df",
+            "guess_ages"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "combine"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "train_df",
+            "combine"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "combine"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "combine"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "combine"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "freq_port"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "freq_port",
+            "train_df",
+            "combine"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "combine"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "test_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "test_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "logreg",
+            "acc_log"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "logreg",
+            "train_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "acc_svc"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "acc_knn"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "acc_gaussian"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "acc_perceptron"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "acc_linear_svc"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "acc_sgd"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "acc_decision_tree"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "acc_random_forest",
+            "Y_pred"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "acc_perceptron",
+            "acc_random_forest",
+            "acc_knn",
+            "acc_gaussian",
+            "acc_decision_tree",
+            "acc_log",
+            "acc_svc",
+            "acc_sgd",
+            "acc_linear_svc"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "Y_pred",
+            "test_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    }
+]

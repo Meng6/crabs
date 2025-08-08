@@ -1,0 +1,45 @@
+[
+    {
+        "inputs": [],
+        "outputs": [
+            "melbourne_model",
+            "X",
+            "y"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "pd.read_csv",
+            "melbourne_data.dropna",
+            "DecisionTreeRegressor",
+            "melbourne_model.fit"
+        ]
+    },
+    {
+        "inputs": [
+            "melbourne_model",
+            "X",
+            "y"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "melbourne_model.predict",
+            "mean_absolute_error"
+        ]
+    },
+    {
+        "inputs": [
+            "X",
+            "y"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "train_test_split",
+            "DecisionTreeRegressor",
+            "melbourne_model.fit",
+            "melbourne_model.predict",
+            "mean_absolute_error"
+        ]
+    }
+]

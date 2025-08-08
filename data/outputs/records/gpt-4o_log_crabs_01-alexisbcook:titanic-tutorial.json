@@ -1,0 +1,61 @@
+[
+    {
+        "cell": 1,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 2,
+        "inputs": [],
+        "outputs": [
+            "train_data"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 3,
+        "inputs": [],
+        "outputs": [
+            "test_data"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 4,
+        "inputs": [
+            "train_data"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 5,
+        "inputs": [
+            "train_data"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 6,
+        "inputs": [
+            "test_data",
+            "train_data"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    }
+]

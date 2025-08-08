@@ -1,0 +1,273 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [
+            "y",
+            "X"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X",
+            "y"
+        ],
+        "outputs": [
+            "X_train",
+            "X_test",
+            "y_train",
+            "y_test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "dtr"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dtr",
+            "X_train",
+            "y_train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dtr",
+            "X_train",
+            "y_train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dtr",
+            "X_train",
+            "y_train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dtr",
+            "X_test",
+            "y_test"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dtr"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "params"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dtr"
+        ],
+        "outputs": [
+            "pipe"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "pipe",
+            "params"
+        ],
+        "outputs": [
+            "grid"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "grid"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "grid",
+            "X_train",
+            "y_train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "grid"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "grid"
+        ],
+        "outputs": [
+            "best"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "best",
+            "X_train",
+            "y_train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "best",
+            "X_test"
+        ],
+        "outputs": [
+            "y_pred"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "y_test",
+            "y_pred"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "y_test",
+            "y_pred"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "y_test",
+            "y_pred"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "plt",
+            "X",
+            "X_train",
+            "y_train"
+        ],
+        "outputs": [
+            "fig",
+            "ax"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "DecisionTreeRegressor",
+            "plot_tree"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "pickle",
+            "best"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "pickle"
+        ],
+        "outputs": [
+            "dtr2"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dtr2",
+            "X_test"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

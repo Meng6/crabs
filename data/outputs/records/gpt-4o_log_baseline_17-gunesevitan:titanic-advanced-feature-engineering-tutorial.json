@@ -1,0 +1,467 @@
+[
+    {
+        "inputs": [],
+        "outputs": [
+            "SEED"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "df_train",
+            "df_test",
+            "df_all",
+            "dfs"
+        ],
+        "defines_code": [
+            "concat_df",
+            "divide_df"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_test"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dfs"
+        ],
+        "outputs": [],
+        "defines_code": [
+            "display_missing"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [
+            "df_all_corr"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [
+            "med_fare"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all",
+            "med_fare"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [
+            "df_all_decks"
+        ],
+        "defines_code": [
+            "get_pclass_dist",
+            "display_pclass_dist"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [
+            "df_all_decks_survived"
+        ],
+        "defines_code": [
+            "get_survived_dist",
+            "display_surv_dist"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [
+            "df_train",
+            "df_test",
+            "dfs"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "divide_df",
+            "display_missing"
+        ]
+    },
+    {
+        "inputs": [
+            "df_train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_train",
+            "df_test"
+        ],
+        "outputs": [
+            "df_train_corr",
+            "df_train_corr_nd",
+            "df_test_corr",
+            "df_test_corr_nd"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_train_corr_nd"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_test_corr_nd"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_train",
+            "df_test"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [
+            "df_all"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "concat_df"
+        ]
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [
+            "df_all"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [
+            "df_all"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [
+            "df_all"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [
+            "df_train",
+            "df_test",
+            "dfs"
+        ],
+        "defines_code": [
+            "extract_surname"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_train",
+            "df_test"
+        ],
+        "outputs": [
+            "family_rates",
+            "ticket_rates"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_train",
+            "df_test",
+            "family_rates",
+            "ticket_rates"
+        ],
+        "outputs": [
+            "df_train",
+            "df_test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_train",
+            "df_test"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dfs"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dfs"
+        ],
+        "outputs": [
+            "df_train",
+            "df_test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_train",
+            "df_test"
+        ],
+        "outputs": [
+            "df_all"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "concat_df"
+        ]
+    },
+    {
+        "inputs": [
+            "df_all"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_train",
+            "df_test"
+        ],
+        "outputs": [
+            "X_train",
+            "y_train",
+            "X_test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "SEED"
+        ],
+        "outputs": [
+            "single_best_model",
+            "leaderboard_model"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X_test",
+            "X_train",
+            "y_train",
+            "leaderboard_model",
+            "df_all"
+        ],
+        "outputs": [
+            "probs",
+            "importances",
+            "fprs",
+            "tprs",
+            "scores",
+            "oob"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "importances"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "fprs",
+            "tprs"
+        ],
+        "outputs": [],
+        "defines_code": [
+            "plot_roc_curve"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "probs",
+            "df_test"
+        ],
+        "outputs": [
+            "submission_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

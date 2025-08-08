@@ -1,0 +1,245 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train",
+            "test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [
+            "build_vocab"
+        ],
+        "refers_code": [
+            "tqdm"
+        ]
+    },
+    {
+        "inputs": [
+            "train",
+            "build_vocab"
+        ],
+        "outputs": [
+            "sentences",
+            "vocab"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "embeddings_index"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "KeyedVectors"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [
+            "check_coverage"
+        ],
+        "refers_code": [
+            "tqdm",
+            "operator"
+        ]
+    },
+    {
+        "inputs": [
+            "vocab",
+            "embeddings_index",
+            "check_coverage"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "embeddings_index"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "embeddings_index"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [
+            "clean_text"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train",
+            "clean_text",
+            "build_vocab"
+        ],
+        "outputs": [
+            "sentences",
+            "vocab"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "vocab",
+            "embeddings_index",
+            "check_coverage"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "embeddings_index"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [
+            "clean_numbers"
+        ],
+        "refers_code": [
+            "re"
+        ]
+    },
+    {
+        "inputs": [
+            "train",
+            "clean_numbers",
+            "build_vocab"
+        ],
+        "outputs": [
+            "sentences",
+            "vocab"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "vocab",
+            "embeddings_index",
+            "check_coverage"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [
+            "_get_mispell",
+            "replace_typical_misspell"
+        ],
+        "refers_code": [
+            "re"
+        ]
+    },
+    {
+        "inputs": [
+            "train",
+            "replace_typical_misspell",
+            "build_vocab",
+            "tqdm"
+        ],
+        "outputs": [
+            "sentences",
+            "vocab"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "vocab",
+            "embeddings_index",
+            "check_coverage"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "inputs": [],
+        "outputs": [
+            "train",
+            "test",
+            "full_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "full_data",
+            "train"
+        ],
+        "outputs": [
+            "full_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "full_data",
+            "train"
+        ],
+        "outputs": [
+            "full_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "full_data",
+            "train"
+        ],
+        "outputs": [
+            "full_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "full_data",
+            "train"
+        ],
+        "outputs": [
+            "full_data",
+            "train"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "full_data",
+            "train"
+        ],
+        "outputs": [
+            "full_data",
+            "train"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "full_data",
+            "train"
+        ],
+        "outputs": [
+            "full_data"
+        ],
+        "defines_code": [
+            "get_title"
+        ],
+        "refers_code": [
+            "get_title"
+        ]
+    },
+    {
+        "inputs": [
+            "full_data",
+            "train"
+        ],
+        "outputs": [
+            "full_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "full_data",
+            "train",
+            "test"
+        ],
+        "outputs": [
+            "full_data",
+            "train",
+            "test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "StratifiedShuffleSplit",
+            "accuracy_score",
+            "KNeighborsClassifier",
+            "SVC",
+            "DecisionTreeClassifier",
+            "RandomForestClassifier",
+            "AdaBoostClassifier",
+            "GradientBoostingClassifier",
+            "GaussianNB",
+            "LinearDiscriminantAnalysis",
+            "QuadraticDiscriminantAnalysis",
+            "LogisticRegression",
+            "sns"
+        ]
+    },
+    {
+        "inputs": [
+            "train",
+            "test"
+        ],
+        "outputs": [
+            "result"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "SVC"
+        ]
+    }
+]

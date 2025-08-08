@@ -1,0 +1,591 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "training",
+            "all_data",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [
+            "df_num",
+            "df_cat"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df_num"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df_num"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "df_cat"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training",
+            "df_cat"
+        ],
+        "outputs": [
+            "training"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [
+            "training"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [
+            "training"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [
+            "training"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "training",
+            "all_data"
+        ],
+        "outputs": [
+            "X_train",
+            "all_data",
+            "all_dummies"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data",
+            "all_dummies"
+        ],
+        "outputs": [
+            "X_test_scaled",
+            "y_train",
+            "X_train_scaled"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [
+            "gnb"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [
+            "lr"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [
+            "knn"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [
+            "rf"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [
+            "svc"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [
+            "xgb"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "lr",
+            "svc",
+            "gnb",
+            "knn",
+            "rf",
+            "xgb"
+        ],
+        "outputs": [
+            "voting_clf"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "voting_clf",
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "voting_clf",
+            "X_test_scaled",
+            "y_train",
+            "X_train_scaled",
+            "test"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "clf_performance"
+        ]
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [
+            "best_clf_lr"
+        ],
+        "refers_code": [
+            "clf_performance"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [
+            "best_clf_knn"
+        ],
+        "refers_code": [
+            "clf_performance"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [
+            "best_clf_svc"
+        ],
+        "refers_code": [
+            "clf_performance"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [
+            "best_clf_rf"
+        ],
+        "refers_code": [
+            "clf_performance"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "best_clf_rf",
+            "X_train_scaled"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [
+            "best_clf_xgb"
+        ],
+        "refers_code": [
+            "clf_performance"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "best_clf_xgb",
+            "X_test_scaled",
+            "test"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "best_clf_xgb",
+            "best_clf_knn",
+            "X_train",
+            "y_train",
+            "best_clf_lr",
+            "best_clf_rf",
+            "best_clf_svc"
+        ],
+        "outputs": [
+            "voting_clf_hard",
+            "best_rf",
+            "voting_clf_xgb",
+            "voting_clf_soft",
+            "voting_clf_all"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_test_scaled",
+            "voting_clf_soft",
+            "y_train",
+            "X_train_scaled"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "clf_performance"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_test_scaled",
+            "y_train",
+            "voting_clf_xgb",
+            "X_train_scaled",
+            "voting_clf_all",
+            "voting_clf_hard",
+            "voting_clf_soft",
+            "best_rf"
+        ],
+        "outputs": [
+            "y_hat_vc_all",
+            "y_hat_vc_hard",
+            "y_hat_vc_soft",
+            "y_hat_rf",
+            "y_hat_vc_xgb"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_hat_vc_all",
+            "y_hat_vc_hard",
+            "y_hat_vc_soft",
+            "y_hat_rf",
+            "y_hat_vc_xgb",
+            "test"
+        ],
+        "outputs": [
+            "submission",
+            "submission_4",
+            "submission_2",
+            "submission_3",
+            "comparison",
+            "submission_5"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "comparison"
+        ],
+        "outputs": [
+            "comparison"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "comparison"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "submission",
+            "submission_4",
+            "submission_2",
+            "submission_3",
+            "submission_5"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    }
+]

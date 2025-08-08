@@ -1,0 +1,28 @@
+Given a Python program block, return a JSON string with "inputs", "output_candidates", "defines_code", "refers_code", and "shared_references" keys. Do not include any names of built-in functions and variables.
+- "inputs" are variables that are used in the program block but not defined within it, or variables used before being reassigned. Besides shared references, one important case is about conditional statement within a loop, i.e., when a variable is initialized during an early iteration of a loop and then utilized in subsequent iterations. In such cases, the variable is not considered an input, as its value originates from the loop's execution rather than external sources.
+- "output_candidates" are variables that are defined, updated, or mutated in the program block. Besides shared references, there are two important cases:
+    1. Method Calls (object.method()) or Function Calls (function(object))
+        - If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.
+        - If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.
+        - If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.
+    2. Reassignment (variable = ...)
+        - If a variable is assigned a new value, it is an output candidate.
+- "defines_code" is a list of functions or classes defined in the program block.
+- "refers_code" is a list of user-defined functions or classes used in the program block, selected from a given list.
+- "shared_references" is a string, which contains descriptions about the shared references (aliased variables) based on previous context and current program block. If there are no shared references, return "NA". Otherwise, it must explicitly include:
+    - How multiple variables reference the same object (e.g., through assignment or being stored inside a data structure).
+    - The relationship in both directions, meaning if one variable is modified, how it affects the others and vice versa.
+
+Previous context: 
+[[CONTEXT_SHARED_REFERENCES]]
+
+Current program block:
+```python
+[[CONTEXT_PYTHON]]
+```
+
+From the following given list, select only the functions and classes that are used and store them in "refers_code".
+Given functions and classes:
+[[[CONTEXT_FUNCS_AND_CLASSES]]]
+
+JSON string: (Think it step by step, then return the final results only)

@@ -1,0 +1,232 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train_file_path",
+            "dataset_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dataset_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dataset_df"
+        ],
+        "outputs": [
+            "dataset_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dataset_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dataset_df",
+            "plt",
+            "sns"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dataset_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dataset_df"
+        ],
+        "outputs": [
+            "df_num"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df_num"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dataset_df",
+            "np"
+        ],
+        "outputs": [
+            "train_ds_pd",
+            "valid_ds_pd"
+        ],
+        "defines_code": [
+            "split_dataset"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "tfdf",
+            "train_ds_pd",
+            "valid_ds_pd"
+        ],
+        "outputs": [
+            "train_ds",
+            "valid_ds"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "tfdf"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "tfdf"
+        ],
+        "outputs": [
+            "rf"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "rf",
+            "train_ds"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "tfdf",
+            "rf"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "plt",
+            "rf"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "rf"
+        ],
+        "outputs": [
+            "inspector"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "rf",
+            "valid_ds"
+        ],
+        "outputs": [
+            "evaluation"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "inspector"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "inspector"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "plt",
+            "inspector"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "pd",
+            "tfdf",
+            "rf"
+        ],
+        "outputs": [
+            "test_file_path",
+            "test_data",
+            "ids",
+            "test_ds",
+            "preds",
+            "output"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "pd",
+            "rf",
+            "test_ds"
+        ],
+        "outputs": [
+            "sample_submission_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

@@ -1,0 +1,315 @@
+[
+    {
+        "cell": 1,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 2,
+        "inputs": [],
+        "outputs": [
+            "train"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 3,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "build_vocab"
+        ],
+        "log": []
+    },
+    {
+        "cell": 4,
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "vocab"
+        ],
+        "refers_code": [
+            "build_vocab"
+        ],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"train\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\nsentences = train[\"question_text\"].progress_apply(lambda x: x.split()).values\nvocab = build_vocab(sentences)\nprint({k: vocab[k] for k in list(vocab)[:5]})\n```\nAnswer:\n",
+                "Answer": "No, \"train\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 5,
+        "inputs": [],
+        "outputs": [
+            "embeddings_index"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 6,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "check_coverage"
+        ],
+        "log": []
+    },
+    {
+        "cell": 7,
+        "inputs": [
+            "vocab",
+            "embeddings_index"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "refers_code": [
+            "check_coverage"
+        ],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"embeddings_index\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\noov = check_coverage(vocab,embeddings_index)\n```\nAnswer:\n",
+                "Answer": "No, \"embeddings_index\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 8,
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 9,
+        "inputs": [
+            "embeddings_index"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 10,
+        "inputs": [
+            "embeddings_index"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 11,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "clean_text"
+        ],
+        "log": []
+    },
+    {
+        "cell": 12,
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "vocab",
+            "train"
+        ],
+        "refers_code": [
+            "build_vocab",
+            "clean_text"
+        ],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 13,
+        "inputs": [
+            "vocab",
+            "embeddings_index"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "refers_code": [
+            "check_coverage"
+        ],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"embeddings_index\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\noov = check_coverage(vocab,embeddings_index)\n```\nAnswer:\n",
+                "Answer": "No, \"embeddings_index\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 14,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 15,
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 16,
+        "inputs": [
+            "embeddings_index"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"embeddings_index\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\nfor i in range(10):\n    print(embeddings_index.index2entity[i])\n```\nAnswer:\n",
+                "Answer": "No, \"embeddings_index\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 17,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "clean_numbers"
+        ],
+        "log": []
+    },
+    {
+        "cell": 18,
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "vocab",
+            "train"
+        ],
+        "refers_code": [
+            "clean_numbers",
+            "build_vocab"
+        ],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 19,
+        "inputs": [
+            "vocab",
+            "embeddings_index"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "refers_code": [
+            "check_coverage"
+        ],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"embeddings_index\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\noov = check_coverage(vocab,embeddings_index)\n```\nAnswer:\n",
+                "Answer": "No, \"embeddings_index\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 20,
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 21,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [
+            "_get_mispell"
+        ],
+        "defines_code": [
+            "_get_mispell",
+            "replace_typical_misspell"
+        ],
+        "log": []
+    },
+    {
+        "cell": 22,
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "vocab"
+        ],
+        "refers_code": [
+            "replace_typical_misspell",
+            "build_vocab"
+        ],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 23,
+        "inputs": [
+            "vocab",
+            "embeddings_index"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "refers_code": [
+            "check_coverage"
+        ],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 24,
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 25,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    }
+]

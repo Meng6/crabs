@@ -1,0 +1,527 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train",
+            "sample",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "test"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "sample"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "multiclass_logloss"
+        ]
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "y"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y",
+            "train"
+        ],
+        "outputs": [
+            "xvalid",
+            "xtrain",
+            "yvalid",
+            "ytrain"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid",
+            "xtrain"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid",
+            "xtrain"
+        ],
+        "outputs": [
+            "xtrain_tfv",
+            "xvalid_tfv"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_tfv",
+            "xvalid_tfv",
+            "yvalid",
+            "ytrain"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid",
+            "xtrain"
+        ],
+        "outputs": [
+            "xvalid_ctv",
+            "xtrain_ctv"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid_ctv",
+            "yvalid",
+            "ytrain",
+            "xtrain_ctv"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_tfv",
+            "xvalid_tfv",
+            "yvalid",
+            "ytrain"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid_ctv",
+            "yvalid",
+            "ytrain",
+            "xtrain_ctv"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_tfv",
+            "xvalid_tfv"
+        ],
+        "outputs": [
+            "xvalid_svd_scl",
+            "xtrain_svd_scl",
+            "xtrain_svd",
+            "xvalid_svd"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid_svd_scl",
+            "xtrain_svd_scl",
+            "yvalid",
+            "ytrain"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_tfv",
+            "xvalid_tfv",
+            "yvalid",
+            "ytrain"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid_ctv",
+            "yvalid",
+            "ytrain",
+            "xtrain_ctv"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_svd",
+            "yvalid",
+            "ytrain",
+            "xvalid_svd"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_svd",
+            "yvalid",
+            "ytrain",
+            "xvalid_svd"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "mll_scorer"
+        ],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "clf"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "param_grid"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "clf",
+            "param_grid",
+            "xtrain_tfv",
+            "mll_scorer",
+            "ytrain"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_tfv",
+            "mll_scorer",
+            "ytrain"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "embeddings_index"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "sent2vec"
+        ]
+    },
+    {
+        "inputs": [
+            "xvalid",
+            "xtrain"
+        ],
+        "outputs": [
+            "xtrain_glove",
+            "xvalid_glove"
+        ],
+        "refers_code": [
+            "sent2vec"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid_glove",
+            "xtrain_glove"
+        ],
+        "outputs": [
+            "xtrain_glove",
+            "xvalid_glove"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid_glove",
+            "yvalid",
+            "ytrain",
+            "xtrain_glove"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid_glove",
+            "yvalid",
+            "ytrain",
+            "xtrain_glove"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid_glove",
+            "xtrain_glove"
+        ],
+        "outputs": [
+            "xtrain_glove_scl",
+            "xvalid_glove_scl"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "yvalid",
+            "ytrain"
+        ],
+        "outputs": [
+            "yvalid_enc",
+            "ytrain_enc"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model",
+            "ytrain_enc",
+            "xtrain_glove_scl",
+            "yvalid_enc",
+            "xvalid_glove_scl"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid",
+            "xtrain"
+        ],
+        "outputs": [
+            "word_index",
+            "xtrain_pad",
+            "max_len",
+            "xvalid_pad"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "word_index",
+            "embeddings_index"
+        ],
+        "outputs": [
+            "embedding_matrix"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "word_index",
+            "embedding_matrix",
+            "max_len"
+        ],
+        "outputs": [
+            "model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model",
+            "xtrain_pad",
+            "ytrain_enc",
+            "yvalid_enc",
+            "xvalid_pad"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "ytrain_enc",
+            "xtrain_pad",
+            "embedding_matrix",
+            "word_index",
+            "max_len",
+            "yvalid_enc",
+            "xvalid_pad"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "ytrain_enc",
+            "xtrain_pad",
+            "embedding_matrix",
+            "word_index",
+            "max_len",
+            "yvalid_enc",
+            "xvalid_pad"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "ytrain_enc",
+            "xtrain_pad",
+            "embedding_matrix",
+            "word_index",
+            "max_len",
+            "yvalid_enc",
+            "xvalid_pad"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "Ensembler"
+        ]
+    },
+    {
+        "inputs": [
+            "xvalid_ctv",
+            "xvalid_glove",
+            "xvalid_tfv",
+            "ytrain",
+            "xtrain_ctv",
+            "xtrain_tfv",
+            "xtrain_glove"
+        ],
+        "outputs": [
+            "preds"
+        ],
+        "refers_code": [
+            "multiclass_logloss",
+            "Ensembler"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "preds",
+            "yvalid"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "multiclass_logloss"
+        ],
+        "defines_code": []
+    }
+]

@@ -1,0 +1,204 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "outputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "outputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "outputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "outputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "titanic_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "outputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "outputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "refers_code": [
+            "get_person"
+        ],
+        "defines_code": [
+            "get_person"
+        ]
+    },
+    {
+        "inputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "outputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "titanic_df",
+            "test_df"
+        ],
+        "outputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "logreg"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "Y_pred"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "logreg",
+            "titanic_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "Y_pred",
+            "test_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    }
+]

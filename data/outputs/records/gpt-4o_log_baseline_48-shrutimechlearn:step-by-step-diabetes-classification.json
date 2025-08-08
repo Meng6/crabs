@@ -1,0 +1,359 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "diabetes_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data"
+        ],
+        "outputs": [
+            "diabetes_data_copy"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data_copy"
+        ],
+        "outputs": [
+            "diabetes_data_copy"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data_copy"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data"
+        ],
+        "outputs": [
+            "colors"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data_copy"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data_copy"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data_copy"
+        ],
+        "outputs": [
+            "X"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "diabetes_data_copy"
+        ],
+        "outputs": [
+            "y"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X",
+            "y"
+        ],
+        "outputs": [
+            "X_train",
+            "X_test",
+            "y_train",
+            "y_test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train",
+            "X_test",
+            "y_test"
+        ],
+        "outputs": [
+            "test_scores",
+            "train_scores"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "KNeighborsClassifier"
+        ]
+    },
+    {
+        "inputs": [
+            "train_scores"
+        ],
+        "outputs": [
+            "max_train_score",
+            "train_scores_ind"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "test_scores"
+        ],
+        "outputs": [
+            "max_test_score",
+            "test_scores_ind"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_scores",
+            "test_scores"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "y_train",
+            "X_test",
+            "y_test"
+        ],
+        "outputs": [
+            "knn"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "KNeighborsClassifier"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X",
+            "y",
+            "X_test",
+            "knn"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "plot_decision_regions"
+        ]
+    },
+    {
+        "inputs": [
+            "X_test",
+            "y_test",
+            "knn"
+        ],
+        "outputs": [
+            "y_pred"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "confusion_matrix"
+        ]
+    },
+    {
+        "inputs": [
+            "X_test",
+            "y_test",
+            "y_pred"
+        ],
+        "outputs": [
+            "y_pred"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "y_test",
+            "y_pred"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "classification_report"
+        ]
+    },
+    {
+        "inputs": [
+            "y_test",
+            "knn",
+            "X_test"
+        ],
+        "outputs": [
+            "y_pred_proba",
+            "fpr",
+            "tpr",
+            "thresholds"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "roc_curve"
+        ]
+    },
+    {
+        "inputs": [
+            "fpr",
+            "tpr"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "y_test",
+            "y_pred_proba"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "roc_auc_score"
+        ]
+    },
+    {
+        "inputs": [
+            "X",
+            "y"
+        ],
+        "outputs": [
+            "knn_cv"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "GridSearchCV",
+            "KNeighborsClassifier"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

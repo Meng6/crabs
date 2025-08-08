@@ -1,0 +1,64 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "test_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_data"
+        ],
+        "outputs": [
+            "women",
+            "rate_women"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_data"
+        ],
+        "outputs": [
+            "men",
+            "rate_men"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_data",
+            "test_data"
+        ],
+        "outputs": [
+            "y",
+            "X",
+            "X_test",
+            "model",
+            "predictions",
+            "output"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "RandomForestClassifier"
+        ]
+    }
+]

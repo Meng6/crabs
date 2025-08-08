@@ -1,0 +1,414 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "sales",
+            "item_cat",
+            "item",
+            "sub",
+            "shops",
+            "test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "sales",
+            "datetime"
+        ],
+        "outputs": [
+            "sales"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "sales"
+        ],
+        "outputs": [
+            "monthly_sales"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "monthly_sales"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "item",
+            "sns",
+            "plt"
+        ],
+        "outputs": [
+            "x"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "sales",
+            "plt"
+        ],
+        "outputs": [
+            "ts"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "ts",
+            "plt"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "sm",
+            "ts"
+        ],
+        "outputs": [
+            "res",
+            "fig"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "sm",
+            "ts"
+        ],
+        "outputs": [
+            "res",
+            "fig"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "adfuller",
+            "ts"
+        ],
+        "outputs": [],
+        "defines_code": [
+            "test_stationarity"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "Series"
+        ],
+        "outputs": [],
+        "defines_code": [
+            "difference",
+            "inverse_difference"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "sales",
+            "plt",
+            "difference"
+        ],
+        "outputs": [
+            "ts",
+            "new_ts"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "new_ts",
+            "test_stationarity"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "pd",
+            "plt",
+            "smt",
+            "sm",
+            "scs"
+        ],
+        "outputs": [],
+        "defines_code": [
+            "tsplot"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "np",
+            "tsplot"
+        ],
+        "outputs": [
+            "x"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "np",
+            "smt",
+            "tsplot"
+        ],
+        "outputs": [
+            "ar2"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "np",
+            "smt",
+            "tsplot"
+        ],
+        "outputs": [
+            "ma1"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "np",
+            "smt",
+            "tsplot"
+        ],
+        "outputs": [
+            "ma3"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "np",
+            "smt",
+            "tsplot"
+        ],
+        "outputs": [
+            "arma22"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "smt",
+            "arma22"
+        ],
+        "outputs": [
+            "best_aic",
+            "best_order",
+            "best_mdl"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "smt",
+            "new_ts"
+        ],
+        "outputs": [
+            "best_aic",
+            "best_order",
+            "best_mdl"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "sales",
+            "pd"
+        ],
+        "outputs": [
+            "ts"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "Prophet",
+            "ts"
+        ],
+        "outputs": [
+            "model"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "model"
+        ],
+        "outputs": [
+            "future",
+            "forecast"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "model",
+            "forecast"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "model",
+            "forecast"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "sales",
+            "pd"
+        ],
+        "outputs": [
+            "total_sales"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "sales",
+            "pd"
+        ],
+        "outputs": [
+            "monthly_sales"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "time",
+            "Prophet",
+            "monthly_sales"
+        ],
+        "outputs": [
+            "forecastsDict"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "sales",
+            "pd"
+        ],
+        "outputs": [
+            "monthly_shop_sales"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "time",
+            "Prophet",
+            "monthly_shop_sales"
+        ],
+        "outputs": [
+            "forecastsDict"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "np",
+            "forecastsDict"
+        ],
+        "outputs": [
+            "predictions"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "predictions"
+        ],
+        "outputs": [
+            "predictions_unknown"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

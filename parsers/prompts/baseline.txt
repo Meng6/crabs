@@ -1,0 +1,30 @@
+Given a Python Jupyter Notebook, please extract input and output variables, custom defined code (including functions and classes), referred code (including functions and classes) of each code cell and return a JSON string which is a list of dictionaries. Each dictionary has "inputs", "outputs", "defines_code", and "refers_code" keys. Each dictionary is a code cell in the notebook. All modules, builtin function names should be ignored. The order of these dictionaries in the list should be the same as the order of the code cells in the notebook.
+
+Here are the steps:
+
+Step 1: extract the inputs and output candidates of each code cell. An input of a cell is a variable that is used in the cell. Usually it is not defined in current cell, but in some previous cells. An exception could be a variable that is defined in the current cell but used before it is defined. An output candidate of a cell is a variable that is defined, updated, or mutated in the cell.
+
+Important cases for output candidates:
+1. Method Calls (object.method()) or Function Calls (function(object))
+- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.
+- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.
+- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.
+2. Reassignment (variable = ...)
+If a variable is assigned a new value, it is an output candidate.
+3. Shared References (Aliased Variables)
+- If multiple variables reference the same mutable object (e.g., through assignment or being stored inside a data structure), modifying the object in place through one reference makes all references to that object output candidates.
+- Modifying the container in place makes only the container an output candidate, but not its elements.
+- Modifying an element inside a container in place makes both the container and the modified element output candidates.
+- Operations like retrieving data, describing data, visualizing data, accessing properties, and creating a copy are not considered as modifying the object in place.
+
+Step 2: extract outputs by filtering out output candidates which are not used in any subsequent cells.
+
+Step 3: add custom defined functions and classes as "defines_code", used functions and classes as "refers_code" to each cell. A function or class is considered custom defined if it is defined in the cell. A function or class is considered used if it is called in the cell. Note that modules and builtin function names should not be included.
+
+Step 4: return a JSON string.
+
+------
+Given a Python Jupyter Notebook:
+[[CONTEXT_NOTEBOOK]]
+
+Think it step by step and return the JSON string as described above. Do not include any code cell content in the answer.

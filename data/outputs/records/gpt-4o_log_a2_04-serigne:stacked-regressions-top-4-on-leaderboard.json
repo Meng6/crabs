@@ -1,0 +1,652 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [
+            "ignore_warn"
+        ],
+        "defines_code": [
+            "ignore_warn"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "test"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train",
+            "test"
+        ],
+        "outputs": [
+            "test_ID"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train",
+            "test"
+        ],
+        "outputs": [
+            "ntrain",
+            "y_train",
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data_na"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data_na"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "skewness"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "skewness",
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "ntrain",
+            "all_data"
+        ],
+        "outputs": [
+            "train",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "rmsle_cv"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "lasso"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "ENet"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "KRR"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "GBoost"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "model_xgb"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "model_lgb"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "lasso"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "rmsle_cv"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "ENet"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "rmsle_cv"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "KRR"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "rmsle_cv"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "GBoost"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "rmsle_cv"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model_xgb"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "rmsle_cv"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model_lgb"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "rmsle_cv"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "AveragingModels"
+        ]
+    },
+    {
+        "inputs": [
+            "ENet",
+            "GBoost",
+            "KRR",
+            "lasso"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "AveragingModels",
+            "rmsle_cv"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "StackingAveragedModels"
+        ]
+    },
+    {
+        "inputs": [
+            "ENet",
+            "GBoost",
+            "KRR",
+            "lasso"
+        ],
+        "outputs": [
+            "stacked_averaged_models"
+        ],
+        "refers_code": [
+            "StackingAveragedModels",
+            "rmsle_cv"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "rmsle"
+        ]
+    },
+    {
+        "inputs": [
+            "y_train",
+            "stacked_averaged_models",
+            "train",
+            "test"
+        ],
+        "outputs": [
+            "stacked_train_pred",
+            "stacked_pred"
+        ],
+        "refers_code": [
+            "rmsle"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model_xgb",
+            "y_train",
+            "train",
+            "test"
+        ],
+        "outputs": [
+            "xgb_train_pred",
+            "xgb_pred"
+        ],
+        "refers_code": [
+            "rmsle"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model_lgb",
+            "y_train",
+            "train",
+            "test"
+        ],
+        "outputs": [
+            "lgb_pred",
+            "lgb_train_pred"
+        ],
+        "refers_code": [
+            "rmsle"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "stacked_train_pred",
+            "lgb_train_pred",
+            "y_train",
+            "xgb_train_pred"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "rmsle"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "lgb_pred",
+            "stacked_pred",
+            "xgb_pred"
+        ],
+        "outputs": [
+            "ensemble"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "test_ID",
+            "ensemble"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    }
+]

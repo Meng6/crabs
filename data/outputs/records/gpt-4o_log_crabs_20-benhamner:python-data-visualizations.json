@@ -1,0 +1,217 @@
+[
+    {
+        "cell": 1,
+        "inputs": [],
+        "outputs": [
+            "iris"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 2,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Let's see how many examples we have of each species\niris[\"Species\"].value_counts()\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 3,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# The first way we can plot things is using the .plot extension from Pandas dataframes\n# We'll use this to make a scatterplot of the Iris features.\niris.plot(kind=\"scatter\", x=\"SepalLengthCm\", y=\"SepalWidthCm\")\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 4,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# We can also use the seaborn library to make a similar plot\n# A seaborn jointplot shows bivariate scatterplots and univariate histograms in the same figure\nsns.jointplot(x=\"SepalLengthCm\", y=\"SepalWidthCm\", data=iris, size=5)\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 5,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# One piece of information missing in the plots above is what species each plant is\n# We'll use seaborn's FacetGrid to color the scatterplot by species\nsns.FacetGrid(iris, hue=\"Species\", size=5) \\\n   .map(plt.scatter, \"SepalLengthCm\", \"SepalWidthCm\") \\\n   .add_legend()\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 6,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# We can look at an individual feature in Seaborn through a boxplot\nsns.boxplot(x=\"Species\", y=\"PetalLengthCm\", data=iris)\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 7,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# One way we can extend this plot is adding a layer of individual points on top of\n# it through Seaborn's striplot\n# \n# We'll use jitter=True so that all the points don't fall in single vertical lines\n# above the species\n#\n# Saving the resulting axes as ax each time causes the resulting plot to be shown\n# on top of the previous axes\nax = sns.boxplot(x=\"Species\", y=\"PetalLengthCm\", data=iris)\nax = sns.stripplot(x=\"Species\", y=\"PetalLengthCm\", data=iris, jitter=True, edgecolor=\"gray\")\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 8,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# A violin plot combines the benefits of the previous two plots and simplifies them\n# Denser regions of the data are fatter, and sparser thiner in a violin plot\nsns.violinplot(x=\"Species\", y=\"PetalLengthCm\", data=iris, size=6)\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 9,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# A final seaborn plot useful for looking at univariate relations is the kdeplot,\n# which creates and visualizes a kernel density estimate of the underlying feature\nsns.FacetGrid(iris, hue=\"Species\", size=6) \\\n   .map(sns.kdeplot, \"PetalLengthCm\") \\\n   .add_legend()\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 10,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Another useful seaborn plot is the pairplot, which shows the bivariate relation\n# between each pair of features\n# \n# From the pairplot, we'll see that the Iris-setosa species is separataed from the other\n# two across all feature combinations\nsns.pairplot(iris.drop(\"Id\", axis=1), hue=\"Species\", size=3)\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 11,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# The diagonal elements in a pairplot show the histogram by default\n# We can update these elements to show other things, such as a kde\nsns.pairplot(iris.drop(\"Id\", axis=1), hue=\"Species\", size=3, diag_kind=\"kde\")\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 12,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Now that we've covered seaborn, let's go back to some of the ones we can make with Pandas\n# We can quickly make a boxplot with Pandas on each feature split out by species\niris.drop(\"Id\", axis=1).boxplot(by=\"Species\", figsize=(12, 6))\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 13,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# One cool more sophisticated technique pandas has available is called Andrews Curves\n# Andrews Curves involve using attributes of samples as coefficients for Fourier series\n# and then plotting these\nfrom pandas.tools.plotting import andrews_curves\nandrews_curves(iris.drop(\"Id\", axis=1), \"Species\")\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 14,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"iris\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Another multivariate visualization technique pandas has is parallel_coordinates\n# Parallel coordinates plots each feature on a separate column & then draws lines\n# connecting the features for each data sample\nfrom pandas.tools.plotting import parallel_coordinates\nparallel_coordinates(iris.drop(\"Id\", axis=1), \"Species\")\n```\nAnswer:\n",
+                "Answer": "No, \"iris\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 15,
+        "inputs": [
+            "iris"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    }
+]

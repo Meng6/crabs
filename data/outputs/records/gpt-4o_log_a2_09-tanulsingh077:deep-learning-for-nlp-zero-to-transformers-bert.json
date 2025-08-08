@@ -1,0 +1,479 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "strategy"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "roc_auc"
+        ]
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "xvalid",
+            "xtrain",
+            "yvalid",
+            "ytrain"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xvalid",
+            "xtrain"
+        ],
+        "outputs": [
+            "xtrain_seq",
+            "xtrain_pad",
+            "max_len",
+            "word_index",
+            "xvalid_pad"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "word_index",
+            "strategy",
+            "max_len"
+        ],
+        "outputs": [
+            "model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_pad",
+            "model",
+            "strategy",
+            "ytrain"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model",
+            "yvalid",
+            "xvalid_pad"
+        ],
+        "outputs": [
+            "scores"
+        ],
+        "refers_code": [
+            "roc_auc"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "scores",
+            "yvalid"
+        ],
+        "outputs": [
+            "scores_model"
+        ],
+        "refers_code": [
+            "roc_auc"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_seq"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "embeddings_index"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "word_index",
+            "embeddings_index"
+        ],
+        "outputs": [
+            "embedding_matrix"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "word_index",
+            "strategy",
+            "embedding_matrix",
+            "max_len"
+        ],
+        "outputs": [
+            "model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_pad",
+            "model",
+            "strategy",
+            "ytrain"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model",
+            "yvalid",
+            "xvalid_pad"
+        ],
+        "outputs": [
+            "scores"
+        ],
+        "refers_code": [
+            "roc_auc"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "scores",
+            "yvalid",
+            "scores_model"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "roc_auc"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "word_index",
+            "strategy",
+            "embedding_matrix",
+            "max_len"
+        ],
+        "outputs": [
+            "model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_pad",
+            "model",
+            "strategy",
+            "ytrain"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model",
+            "yvalid",
+            "xvalid_pad"
+        ],
+        "outputs": [
+            "scores"
+        ],
+        "refers_code": [
+            "roc_auc"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "scores",
+            "yvalid",
+            "scores_model"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "roc_auc"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "scores_model"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "word_index",
+            "strategy",
+            "embedding_matrix",
+            "max_len"
+        ],
+        "outputs": [
+            "model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xtrain_pad",
+            "model",
+            "strategy",
+            "ytrain"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model",
+            "yvalid",
+            "xvalid_pad"
+        ],
+        "outputs": [
+            "scores"
+        ],
+        "refers_code": [
+            "roc_auc"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "scores",
+            "yvalid",
+            "scores_model"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "roc_auc"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "scores_model"
+        ],
+        "outputs": [
+            "results"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "results"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "sub",
+            "train1",
+            "valid",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "fast_encode"
+        ]
+    },
+    {
+        "inputs": [
+            "strategy"
+        ],
+        "outputs": [
+            "EPOCHS",
+            "BATCH_SIZE",
+            "AUTO",
+            "MAX_LEN"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "fast_tokenizer"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train1",
+            "MAX_LEN",
+            "valid",
+            "fast_tokenizer",
+            "test"
+        ],
+        "outputs": [
+            "y_train",
+            "y_valid",
+            "x_train",
+            "x_test",
+            "x_valid"
+        ],
+        "refers_code": [
+            "fast_encode"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y_train",
+            "y_valid",
+            "BATCH_SIZE",
+            "AUTO",
+            "x_train",
+            "x_test",
+            "x_valid"
+        ],
+        "outputs": [
+            "valid_dataset",
+            "test_dataset",
+            "train_dataset"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "build_model"
+        ]
+    },
+    {
+        "inputs": [
+            "strategy",
+            "MAX_LEN"
+        ],
+        "outputs": [
+            "model"
+        ],
+        "refers_code": [
+            "build_model"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "EPOCHS",
+            "valid_dataset",
+            "model",
+            "BATCH_SIZE",
+            "x_train",
+            "train_dataset"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "EPOCHS",
+            "valid_dataset",
+            "model",
+            "BATCH_SIZE",
+            "x_valid"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "sub",
+            "test_dataset",
+            "model"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "get_mae"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train_y",
+            "val_y",
+            "train_X",
+            "val_X"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train_y",
+            "val_y",
+            "train_X",
+            "val_X"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "get_mae"
+        ],
+        "defines_code": []
+    }
+]

@@ -1,0 +1,199 @@
+[
+    {
+        "cell": 1,
+        "inputs": [],
+        "outputs": [
+            "nfl_data"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 2,
+        "inputs": [
+            "nfl_data"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"nfl_data\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# look at a few rows of the nfl_data file. I can see a handful of missing data already!\nnfl_data.sample(5)\n```\nAnswer:\n",
+                "Answer": "No, \"nfl_data\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 3,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 4,
+        "inputs": [
+            "nfl_data"
+        ],
+        "outputs": [
+            "missing_values_count"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"nfl_data\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# get the number of missing data points per column\nmissing_values_count = nfl_data.isnull().sum()\n\n# look at the # of missing points in the first ten columns\nmissing_values_count[0:10]\n```\nAnswer:\n",
+                "Answer": "No, \"nfl_data\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 5,
+        "inputs": [
+            "missing_values_count",
+            "nfl_data"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"missing_values_count\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# how many total missing values do we have?\ntotal_cells = np.product(nfl_data.shape)\ntotal_missing = missing_values_count.sum()\n\n# percent of data that is missing\n(total_missing/total_cells) * 100\n```\nAnswer:\n",
+                "Answer": "No, \"missing_values_count\" is not an output candidate."
+            },
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"nfl_data\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# how many total missing values do we have?\ntotal_cells = np.product(nfl_data.shape)\ntotal_missing = missing_values_count.sum()\n\n# percent of data that is missing\n(total_missing/total_cells) * 100\n```\nAnswer:\n",
+                "Answer": "No, \"nfl_data\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 6,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 7,
+        "inputs": [
+            "missing_values_count"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 8,
+        "inputs": [
+            "nfl_data"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"nfl_data\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# remove all the rows that contain a missing value\nnfl_data.dropna()\n```\nAnswer:\n",
+                "Answer": "No, \"nfl_data\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 9,
+        "inputs": [
+            "nfl_data"
+        ],
+        "outputs": [
+            "columns_with_na_dropped"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"nfl_data\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# remove all columns with at least one missing value\ncolumns_with_na_dropped = nfl_data.dropna(axis=1)\ncolumns_with_na_dropped.head()\n```\nAnswer:\n",
+                "Answer": "No, \"nfl_data\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 10,
+        "inputs": [
+            "nfl_data",
+            "columns_with_na_dropped"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"nfl_data\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# just how much data did we lose?\nprint(\"Columns in original dataset: %d \\n\" % nfl_data.shape[1])\nprint(\"Columns with na's dropped: %d\" % columns_with_na_dropped.shape[1])\n```\nAnswer:\n",
+                "Answer": "No, \"nfl_data\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 11,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 12,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 13,
+        "inputs": [
+            "nfl_data"
+        ],
+        "outputs": [
+            "subset_nfl_data"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 14,
+        "inputs": [
+            "subset_nfl_data"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"subset_nfl_data\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# replace all NA's with 0\nsubset_nfl_data.fillna(0)\n```\nAnswer:\n",
+                "Answer": "No, \"subset_nfl_data\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 15,
+        "inputs": [
+            "subset_nfl_data"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 16,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    }
+]

@@ -1,0 +1,47 @@
+Given a Python Jupyter Notebook with definite and possible annotations, extract the input and output variables for each code cell and return a JSON string.
+
+Each dictionary in the JSON list represents a code cell and contains:
+- "inputs": List of input variables.
+- "outputs": List of output variables.
+
+Rules for Extraction:
+Step 1: Include definite inputs and outputs
+1. Add all definite inputs to the final inputs list.
+2. Add all definite outputs to the final outputs list.
+
+Step 2: Process ambiguous inputs
+1. Compute ambiguous inputs by excluding definite inputs from possible inputs.
+2. Add an ambiguous input only if it follows these rules:
+- It is used in the code cell but not defined within it.
+- It is used before reassignment in the same cell.
+Special Cases:
+- Conditional Statement Within a Loop: If a variable is initialized during an early iteration of a loop and then utilized in subsequent iterations, it is not an input.
+- Aliased/shared references: 
+    - If multiple variables reference the same object (directly or via a container), all variables referring to that object are also inputs.
+    - If an container is an input, then all elements inside the container are also inputs.
+    - If an element inside a container is an input, then the container itself is also an input.
+
+Step 3: Process ambiguous outputs
+1. Compute ambiguous outputs by excluding definite outputs from possible outputs.
+2. Add an ambiguous output only if it follows these rules:
+- It is defined, updated, or mutated within the code cell.
+Special Cases:
+- Method Calls & Functions: If a function or method modifies an object in place, the object is an output.
+- Reassignment: If a variable is reassigned, it is an output.
+- Aliased/shared references: 
+    - If a mutable object is modified in place, all references to it should be outputs.
+    - Modifying the container in place makes only the container an output candidate, but not its elements.
+    - Modifying an element inside a container in place makes both the container and the modified element output candidates.
+
+Step 4: Filter outputs
+Remove output candidates that are not used as inputs in any subsequent code cell.
+
+Step 5: Return the JSON Output
+- Format the final list as a JSON string.
+- Maintain the same order of code cells as in the notebook.
+
+------
+Given a Python Jupyter Notebook with annotations:
+[[CONTEXT_NOTEBOOK]]
+
+Think it step by step and return the JSON string as described above. Do not include any code cell content in the answer.

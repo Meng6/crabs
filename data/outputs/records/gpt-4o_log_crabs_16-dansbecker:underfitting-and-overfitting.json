@@ -1,0 +1,40 @@
+[
+    {
+        "cell": 1,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "get_mae"
+        ],
+        "log": []
+    },
+    {
+        "cell": 2,
+        "inputs": [],
+        "outputs": [
+            "train_y",
+            "train_X",
+            "val_X",
+            "val_y"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 3,
+        "inputs": [
+            "train_y",
+            "train_X",
+            "val_X",
+            "val_y"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "get_mae"
+        ],
+        "defines_code": [],
+        "log": []
+    }
+]

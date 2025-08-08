@@ -1,0 +1,38 @@
+[
+    {
+        "cell": 1,
+        "inputs": [],
+        "outputs": [
+            "my_model",
+            "predictor_cols"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 2,
+        "inputs": [
+            "my_model",
+            "predictor_cols"
+        ],
+        "outputs": [
+            "predicted_prices",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 3,
+        "inputs": [
+            "predicted_prices",
+            "test"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    }
+]

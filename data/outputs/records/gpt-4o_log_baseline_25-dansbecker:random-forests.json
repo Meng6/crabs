@@ -1,0 +1,37 @@
+[
+    {
+        "inputs": [],
+        "outputs": [
+            "melbourne_file_path",
+            "melbourne_data",
+            "y",
+            "melbourne_features",
+            "X",
+            "train_X",
+            "val_X",
+            "train_y",
+            "val_y"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "train_test_split"
+        ]
+    },
+    {
+        "inputs": [
+            "train_X",
+            "train_y",
+            "val_X",
+            "val_y"
+        ],
+        "outputs": [
+            "forest_model",
+            "melb_preds"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "RandomForestRegressor",
+            "mean_absolute_error"
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+Given a Python program block, determine if an object is an input. An input is a variable that is used in the program block but not defined within it, or variables used before being reassigned.
+
+Important Cases:
+1. Conditional Statement Within a Loop
+A variable may be initialized during an early iteration of a loop and then utilized in subsequent iterations. In such cases, the variable is not considered an input, as its value originates from the loop's execution rather than external sources.
+[[CONTEXT_SHARED_REFERENCES_RULE]]
+[[CONTEXT_PYTHON_SHARED_REFERENCES]]
+Question:
+In the following Python program block, is "[[CONTEXT_VAR]]" an input? Return the final answer in the form "Yes(No), "{x}" is (not) an input" where "{x}" is the actual name of the variable.
+```python
+[[CONTEXT_PYTHON]]
+```
+Answer:

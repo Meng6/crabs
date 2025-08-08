@@ -1,0 +1,154 @@
+[
+    {
+        "inputs": [],
+        "outputs": [
+            "nfl_data",
+            "sf_permits"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "pd.read_csv",
+            "np.random.seed"
+        ]
+    },
+    {
+        "inputs": [
+            "nfl_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "nfl_data.sample"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "nfl_data"
+        ],
+        "outputs": [
+            "missing_values_count"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "nfl_data.isnull",
+            "missing_values_count.sum"
+        ]
+    },
+    {
+        "inputs": [
+            "nfl_data",
+            "missing_values_count"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "np.product",
+            "missing_values_count.sum"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "missing_values_count"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "nfl_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "nfl_data.dropna"
+        ]
+    },
+    {
+        "inputs": [
+            "nfl_data"
+        ],
+        "outputs": [
+            "columns_with_na_dropped"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "nfl_data.dropna",
+            "columns_with_na_dropped.head"
+        ]
+    },
+    {
+        "inputs": [
+            "nfl_data",
+            "columns_with_na_dropped"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "nfl_data.shape",
+            "columns_with_na_dropped.shape"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "nfl_data"
+        ],
+        "outputs": [
+            "subset_nfl_data"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "nfl_data.loc"
+        ]
+    },
+    {
+        "inputs": [
+            "subset_nfl_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "subset_nfl_data.fillna"
+        ]
+    },
+    {
+        "inputs": [
+            "subset_nfl_data"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "subset_nfl_data.fillna"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

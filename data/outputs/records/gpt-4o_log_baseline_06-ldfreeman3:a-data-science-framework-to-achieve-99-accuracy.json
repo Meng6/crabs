@@ -1,0 +1,372 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "data_raw",
+            "data_val",
+            "data1",
+            "data_cleaner"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "data_val",
+            "data_raw"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data_cleaner",
+            "data1"
+        ],
+        "outputs": [
+            "data1",
+            "data_val"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data_cleaner",
+            "data1"
+        ],
+        "outputs": [
+            "data1",
+            "data_val"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data_cleaner",
+            "data1"
+        ],
+        "outputs": [
+            "data1",
+            "data1_dummy",
+            "data1_x",
+            "data1_x_calc",
+            "data1_xy",
+            "data1_x_bin",
+            "data1_xy_bin",
+            "data1_x_dummy",
+            "data1_xy_dummy"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "data_val",
+            "data_raw"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "data1_x_calc",
+            "data1_x_bin",
+            "data1_x_dummy",
+            "data1_dummy",
+            "Target"
+        ],
+        "outputs": [
+            "train1_x",
+            "test1_x",
+            "train1_y",
+            "test1_y",
+            "train1_x_bin",
+            "test1_x_bin",
+            "train1_y_bin",
+            "test1_y_bin",
+            "train1_x_dummy",
+            "test1_x_dummy",
+            "train1_y_dummy",
+            "test1_y_dummy"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "data1_x",
+            "Target"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "defines_code": [
+            "correlation_heatmap"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "data1_x_bin",
+            "Target",
+            "cv_split",
+            "XGBClassifier"
+        ],
+        "outputs": [
+            "MLA",
+            "MLA_columns",
+            "MLA_compare",
+            "MLA_predict"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "MLA_compare"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "metrics",
+            "random"
+        ],
+        "outputs": [
+            "data1"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "metrics"
+        ],
+        "outputs": [
+            "Tree_Predict"
+        ],
+        "defines_code": [
+            "mytree"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "metrics",
+            "itertools",
+            "plt"
+        ],
+        "outputs": [],
+        "defines_code": [
+            "plot_confusion_matrix"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "data1_x_bin",
+            "Target",
+            "cv_split"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "data1_x_bin",
+            "Target",
+            "cv_split"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "data1_x_bin",
+            "graphviz"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "MLA_predict"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "data1_x_bin",
+            "Target",
+            "cv_split",
+            "XGBClassifier"
+        ],
+        "outputs": [
+            "vote_est"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "data1_x_bin",
+            "Target",
+            "cv_split",
+            "XGBClassifier",
+            "time"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data1",
+            "data1_x_bin",
+            "Target",
+            "cv_split"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data_val",
+            "mytree",
+            "grid_hard",
+            "data1_x_bin"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

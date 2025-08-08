@@ -1,0 +1,238 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "build_vocab"
+        ]
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "vocab"
+        ],
+        "refers_code": [
+            "build_vocab"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "embeddings_index"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "check_coverage"
+        ]
+    },
+    {
+        "inputs": [
+            "vocab",
+            "embeddings_index"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "refers_code": [
+            "check_coverage"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "embeddings_index"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "embeddings_index"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "clean_text"
+        ]
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "vocab"
+        ],
+        "refers_code": [
+            "build_vocab",
+            "clean_text"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "vocab",
+            "embeddings_index"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "refers_code": [
+            "check_coverage"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "embeddings_index"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "clean_numbers"
+        ]
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "vocab"
+        ],
+        "refers_code": [
+            "clean_numbers",
+            "build_vocab"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "vocab",
+            "embeddings_index"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "refers_code": [
+            "check_coverage"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [
+            "_get_mispell"
+        ],
+        "defines_code": [
+            "_get_mispell",
+            "replace_typical_misspell"
+        ]
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "vocab"
+        ],
+        "refers_code": [
+            "build_vocab",
+            "replace_typical_misspell"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "vocab",
+            "embeddings_index"
+        ],
+        "outputs": [
+            "oov"
+        ],
+        "refers_code": [
+            "check_coverage"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "oov"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    }
+]

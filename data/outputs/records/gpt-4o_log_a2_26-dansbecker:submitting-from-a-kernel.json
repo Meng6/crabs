@@ -1,0 +1,32 @@
+[
+    {
+        "inputs": [],
+        "outputs": [
+            "predictor_cols",
+            "my_model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "predictor_cols",
+            "my_model"
+        ],
+        "outputs": [
+            "predicted_prices",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "predicted_prices",
+            "test"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    }
+]

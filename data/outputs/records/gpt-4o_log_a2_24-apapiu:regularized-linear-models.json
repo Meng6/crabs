@@ -1,0 +1,280 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train",
+            "test"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data",
+            "train"
+        ],
+        "outputs": [
+            "all_data",
+            "train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "all_data",
+            "train"
+        ],
+        "outputs": [
+            "y",
+            "X_train",
+            "X_test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "rmse_cv"
+        ]
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "cv_ridge",
+            "alphas"
+        ],
+        "refers_code": [
+            "rmse_cv"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "cv_ridge",
+            "alphas"
+        ],
+        "outputs": [
+            "cv_ridge"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "cv_ridge"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y",
+            "X_train"
+        ],
+        "outputs": [
+            "model_lasso"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model_lasso"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "rmse_cv"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "model_lasso"
+        ],
+        "outputs": [
+            "coef"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "coef"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "coef"
+        ],
+        "outputs": [
+            "imp_coef"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "imp_coef"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y",
+            "X_train",
+            "model_lasso"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y",
+            "X_train",
+            "X_test"
+        ],
+        "outputs": [
+            "model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "y",
+            "X_train"
+        ],
+        "outputs": [
+            "model_xgb"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "model_xgb",
+            "model_lasso",
+            "X_test"
+        ],
+        "outputs": [
+            "xgb_preds",
+            "lasso_preds"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "lasso_preds",
+            "xgb_preds"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "xgb_preds",
+            "lasso_preds"
+        ],
+        "outputs": [
+            "preds"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "preds",
+            "test"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "inputs": [],
+        "outputs": [
+            "melb_data",
+            "melb_target",
+            "melb_predictors",
+            "melb_numeric_predictors"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "melb_numeric_predictors",
+            "melb_target"
+        ],
+        "outputs": [
+            "X_train",
+            "X_test",
+            "y_train",
+            "y_test"
+        ],
+        "defines_code": [
+            "score_dataset"
+        ],
+        "refers_code": [
+            "RandomForestRegressor",
+            "mean_absolute_error",
+            "train_test_split"
+        ]
+    },
+    {
+        "inputs": [
+            "X_train",
+            "X_test",
+            "y_train",
+            "y_test",
+            "score_dataset"
+        ],
+        "outputs": [
+            "cols_with_missing",
+            "reduced_X_train",
+            "reduced_X_test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X_train",
+            "X_test",
+            "y_train",
+            "y_test",
+            "score_dataset"
+        ],
+        "outputs": [
+            "my_imputer",
+            "imputed_X_train",
+            "imputed_X_test"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "SimpleImputer"
+        ]
+    },
+    {
+        "inputs": [
+            "X_train",
+            "X_test",
+            "y_train",
+            "y_test",
+            "score_dataset"
+        ],
+        "outputs": [
+            "imputed_X_train_plus",
+            "imputed_X_test_plus",
+            "my_imputer"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "SimpleImputer"
+        ]
+    }
+]

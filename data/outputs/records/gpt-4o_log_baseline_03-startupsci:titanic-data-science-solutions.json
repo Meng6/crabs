@@ -1,0 +1,685 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "sns",
+            "plt"
+        ],
+        "outputs": [
+            "g"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "FacetGrid",
+            "map",
+            "hist"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df",
+            "sns",
+            "plt"
+        ],
+        "outputs": [
+            "grid"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "FacetGrid",
+            "map",
+            "hist",
+            "add_legend"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df",
+            "sns"
+        ],
+        "outputs": [
+            "grid"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "FacetGrid",
+            "map",
+            "pointplot",
+            "add_legend"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df",
+            "sns"
+        ],
+        "outputs": [
+            "grid"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "FacetGrid",
+            "map",
+            "barplot",
+            "add_legend"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "outputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "combine"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "crosstab"
+        ]
+    },
+    {
+        "inputs": [
+            "combine"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "combine"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "outputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "combine"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "sns",
+            "plt"
+        ],
+        "outputs": [
+            "grid"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "FacetGrid",
+            "map",
+            "hist",
+            "add_legend"
+        ]
+    },
+    {
+        "inputs": [
+            "np"
+        ],
+        "outputs": [
+            "guess_ages"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "zeros"
+        ]
+    },
+    {
+        "inputs": [
+            "combine",
+            "guess_ages"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "median",
+            "loc",
+            "astype"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df",
+            "pd"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "cut"
+        ]
+    },
+    {
+        "inputs": [
+            "combine"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "loc"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df",
+            "combine"
+        ],
+        "outputs": [
+            "train_df",
+            "combine"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "combine"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "combine"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "outputs": [
+            "train_df",
+            "test_df",
+            "combine"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "combine"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df"
+        ],
+        "outputs": [
+            "freq_port"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "dropna",
+            "mode"
+        ]
+    },
+    {
+        "inputs": [
+            "combine",
+            "freq_port"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "fillna"
+        ]
+    },
+    {
+        "inputs": [
+            "combine"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "map",
+            "astype"
+        ]
+    },
+    {
+        "inputs": [
+            "test_df"
+        ],
+        "outputs": [
+            "test_df"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "fillna",
+            "dropna",
+            "median"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df",
+            "pd"
+        ],
+        "outputs": [
+            "train_df"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "qcut"
+        ]
+    },
+    {
+        "inputs": [
+            "combine"
+        ],
+        "outputs": [
+            "train_df",
+            "combine"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "loc",
+            "astype"
+        ]
+    },
+    {
+        "inputs": [
+            "test_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_df",
+            "test_df"
+        ],
+        "outputs": [
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "drop",
+            "copy"
+        ]
+    },
+    {
+        "inputs": [
+            "LogisticRegression",
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "logreg",
+            "Y_pred",
+            "acc_log"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "fit",
+            "predict",
+            "score"
+        ]
+    },
+    {
+        "inputs": [
+            "train_df",
+            "logreg",
+            "pd"
+        ],
+        "outputs": [
+            "coeff_df"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "DataFrame",
+            "sort_values"
+        ]
+    },
+    {
+        "inputs": [
+            "SVC",
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "svc",
+            "Y_pred",
+            "acc_svc"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "fit",
+            "predict",
+            "score"
+        ]
+    },
+    {
+        "inputs": [
+            "KNeighborsClassifier",
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "knn",
+            "Y_pred",
+            "acc_knn"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "fit",
+            "predict",
+            "score"
+        ]
+    },
+    {
+        "inputs": [
+            "GaussianNB",
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "gaussian",
+            "Y_pred",
+            "acc_gaussian"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "fit",
+            "predict",
+            "score"
+        ]
+    },
+    {
+        "inputs": [
+            "Perceptron",
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "perceptron",
+            "Y_pred",
+            "acc_perceptron"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "fit",
+            "predict",
+            "score"
+        ]
+    },
+    {
+        "inputs": [
+            "LinearSVC",
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "linear_svc",
+            "Y_pred",
+            "acc_linear_svc"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "fit",
+            "predict",
+            "score"
+        ]
+    },
+    {
+        "inputs": [
+            "SGDClassifier",
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "sgd",
+            "Y_pred",
+            "acc_sgd"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "fit",
+            "predict",
+            "score"
+        ]
+    },
+    {
+        "inputs": [
+            "DecisionTreeClassifier",
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "decision_tree",
+            "Y_pred",
+            "acc_decision_tree"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "fit",
+            "predict",
+            "score"
+        ]
+    },
+    {
+        "inputs": [
+            "RandomForestClassifier",
+            "X_train",
+            "Y_train",
+            "X_test"
+        ],
+        "outputs": [
+            "random_forest",
+            "Y_pred",
+            "acc_random_forest"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "fit",
+            "predict",
+            "score"
+        ]
+    },
+    {
+        "inputs": [
+            "pd",
+            "acc_svc",
+            "acc_knn",
+            "acc_log",
+            "acc_random_forest",
+            "acc_gaussian",
+            "acc_perceptron",
+            "acc_sgd",
+            "acc_linear_svc",
+            "acc_decision_tree"
+        ],
+        "outputs": [
+            "models"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "DataFrame",
+            "sort_values"
+        ]
+    },
+    {
+        "inputs": [
+            "pd",
+            "test_df",
+            "Y_pred"
+        ],
+        "outputs": [
+            "submission"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "DataFrame"
+        ]
+    }
+]

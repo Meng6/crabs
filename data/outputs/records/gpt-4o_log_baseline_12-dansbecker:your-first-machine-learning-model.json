@@ -1,0 +1,88 @@
+[
+    {
+        "inputs": [],
+        "outputs": [
+            "melbourne_file_path",
+            "melbourne_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "melbourne_data"
+        ],
+        "outputs": [
+            "melbourne_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "melbourne_data"
+        ],
+        "outputs": [
+            "y"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "melbourne_features"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "melbourne_data",
+            "melbourne_features"
+        ],
+        "outputs": [
+            "X"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X",
+            "y"
+        ],
+        "outputs": [
+            "melbourne_model"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "DecisionTreeRegressor"
+        ]
+    },
+    {
+        "inputs": [
+            "X",
+            "melbourne_model"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

@@ -1,0 +1,275 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "tech_list",
+            "end",
+            "start",
+            "AAPL",
+            "GOOG",
+            "MSFT",
+            "AMZN",
+            "company_list",
+            "company_name",
+            "df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "AAPL"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "AAPL"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "company_list",
+            "tech_list"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "company_list",
+            "tech_list"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "ma_day",
+            "company_list",
+            "AAPL",
+            "GOOG",
+            "MSFT",
+            "AMZN"
+        ],
+        "outputs": [
+            "ma_day"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "company_list",
+            "AAPL",
+            "GOOG",
+            "MSFT",
+            "AMZN"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "company_list",
+            "company_name"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "tech_list",
+            "start",
+            "end"
+        ],
+        "outputs": [
+            "closing_df",
+            "tech_rets"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "tech_rets"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "tech_rets"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "tech_rets"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "tech_rets"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "closing_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "tech_rets",
+            "closing_df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "tech_rets"
+        ],
+        "outputs": [
+            "rets"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df",
+            "np"
+        ],
+        "outputs": [
+            "data",
+            "dataset",
+            "training_data_len"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "dataset"
+        ],
+        "outputs": [
+            "scaled_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "scaled_data",
+            "training_data_len"
+        ],
+        "outputs": [
+            "train_data",
+            "x_train",
+            "y_train"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "x_train",
+            "y_train"
+        ],
+        "outputs": [
+            "model"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "scaled_data",
+            "training_data_len",
+            "model",
+            "scaler",
+            "dataset"
+        ],
+        "outputs": [
+            "test_data",
+            "x_test",
+            "y_test",
+            "predictions",
+            "rmse"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "data",
+            "training_data_len",
+            "predictions"
+        ],
+        "outputs": [
+            "train",
+            "valid"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "valid"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

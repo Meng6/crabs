@@ -1,0 +1,318 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "train",
+            "test"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train",
+            "test"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train",
+            "np",
+            "pd",
+            "matplotlib"
+        ],
+        "outputs": [
+            "prices"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train",
+            "np",
+            "all_data",
+            "skew"
+        ],
+        "outputs": [
+            "train",
+            "all_data",
+            "numeric_feats",
+            "skewed_feats"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "all_data",
+            "pd"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "all_data"
+        ],
+        "outputs": [
+            "all_data"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "all_data",
+            "train"
+        ],
+        "outputs": [
+            "X_train",
+            "X_test",
+            "y"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "np",
+            "cross_val_score",
+            "X_train",
+            "y"
+        ],
+        "outputs": [
+            "rmse_cv"
+        ],
+        "defines_code": [
+            "rmse_cv"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "Ridge"
+        ],
+        "outputs": [
+            "model_ridge"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "rmse_cv",
+            "Ridge",
+            "alphas"
+        ],
+        "outputs": [
+            "cv_ridge"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "cv_ridge",
+            "pd",
+            "plt"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "cv_ridge"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "LassoCV",
+            "X_train",
+            "y"
+        ],
+        "outputs": [
+            "model_lasso"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "rmse_cv",
+            "model_lasso"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "pd",
+            "model_lasso",
+            "X_train"
+        ],
+        "outputs": [
+            "coef"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "coef"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "pd",
+            "coef"
+        ],
+        "outputs": [
+            "imp_coef"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "matplotlib",
+            "imp_coef",
+            "plt"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "matplotlib",
+            "pd",
+            "model_lasso",
+            "X_train",
+            "y"
+        ],
+        "outputs": [
+            "preds"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "xgb",
+            "X_train",
+            "y",
+            "X_test"
+        ],
+        "outputs": [
+            "dtrain",
+            "dtest",
+            "model"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "model"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "xgb",
+            "X_train",
+            "y"
+        ],
+        "outputs": [
+            "model_xgb"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "np",
+            "model_xgb",
+            "X_test",
+            "model_lasso"
+        ],
+        "outputs": [
+            "xgb_preds",
+            "lasso_preds"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "pd",
+            "xgb_preds",
+            "lasso_preds"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "lasso_preds",
+            "xgb_preds"
+        ],
+        "outputs": [
+            "preds"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "pd",
+            "test",
+            "preds"
+        ],
+        "outputs": [
+            "solution"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    }
+]

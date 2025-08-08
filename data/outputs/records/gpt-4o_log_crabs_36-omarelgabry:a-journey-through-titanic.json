@@ -1,0 +1,292 @@
+[
+    {
+        "cell": 1,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 2,
+        "inputs": [],
+        "outputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 3,
+        "inputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"test_df\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\ntitanic_df.info()\nprint(\"----------------------------\")\ntest_df.info()\n```\nAnswer:\n",
+                "Answer": "No, \"test_df\" is not an output candidate."
+            },
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"titanic_df\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\ntitanic_df.info()\nprint(\"----------------------------\")\ntest_df.info()\n```\nAnswer:\n",
+                "Answer": "No, \"titanic_df\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 4,
+        "inputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "outputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 5,
+        "inputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "outputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 6,
+        "inputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "outputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 7,
+        "inputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "outputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 8,
+        "inputs": [
+            "titanic_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"titanic_df\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# .... continue with plot Age column\n\n# peaks for survived/not survived passengers by their age\nfacet = sns.FacetGrid(titanic_df, hue=\"Survived\",aspect=4)\nfacet.map(sns.kdeplot,'Age',shade= True)\nfacet.set(xlim=(0, titanic_df['Age'].max()))\nfacet.add_legend()\n\n# average survived passengers by age\nfig, axis1 = plt.subplots(1,1,figsize=(18,4))\naverage_age = titanic_df[[\"Age\", \"Survived\"]].groupby(['Age'],as_index=False).mean()\nsns.barplot(x='Age', y='Survived', data=average_age)\n```\nAnswer:\n",
+                "Answer": "No, \"titanic_df\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 9,
+        "inputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "outputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"test_df\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Cabin\n# It has a lot of NaN values, so it won't cause a remarkable impact on prediction\ntitanic_df.drop(\"Cabin\",axis=1,inplace=True)\ntest_df.drop(\"Cabin\",axis=1,inplace=True)\n```\nAnswer:\n",
+                "Answer": "Yes, \"test_df\" is an output candidate."
+            },
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"titanic_df\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Cabin\n# It has a lot of NaN values, so it won't cause a remarkable impact on prediction\ntitanic_df.drop(\"Cabin\",axis=1,inplace=True)\ntest_df.drop(\"Cabin\",axis=1,inplace=True)\n```\nAnswer:\n",
+                "Answer": "Yes, \"titanic_df\" is an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 10,
+        "inputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "outputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 11,
+        "inputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "outputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "refers_code": [
+            "get_person"
+        ],
+        "defines_code": [
+            "get_person"
+        ],
+        "log": []
+    },
+    {
+        "cell": 12,
+        "inputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "outputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 13,
+        "inputs": [
+            "test_df",
+            "titanic_df"
+        ],
+        "outputs": [
+            "Y_train",
+            "X_train",
+            "X_test"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"test_df\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# define training and testing sets\n\nX_train = titanic_df.drop(\"Survived\",axis=1)\nY_train = titanic_df[\"Survived\"]\nX_test  = test_df.drop(\"PassengerId\",axis=1).copy()\n```\nAnswer:\n",
+                "Answer": "No, \"test_df\" is not an output candidate."
+            },
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"titanic_df\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# define training and testing sets\n\nX_train = titanic_df.drop(\"Survived\",axis=1)\nY_train = titanic_df[\"Survived\"]\nX_test  = test_df.drop(\"PassengerId\",axis=1).copy()\n```\nAnswer:\n",
+                "Answer": "No, \"titanic_df\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 14,
+        "inputs": [
+            "Y_train",
+            "X_train",
+            "X_test"
+        ],
+        "outputs": [
+            "logreg"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"Y_train\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Logistic Regression\n\nlogreg = LogisticRegression()\n\nlogreg.fit(X_train, Y_train)\n\nY_pred = logreg.predict(X_test)\n\nlogreg.score(X_train, Y_train)\n```\nAnswer:\n",
+                "Answer": "No, \"Y_train\" is not an output candidate."
+            },
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"X_train\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Logistic Regression\n\nlogreg = LogisticRegression()\n\nlogreg.fit(X_train, Y_train)\n\nY_pred = logreg.predict(X_test)\n\nlogreg.score(X_train, Y_train)\n```\nAnswer:\n",
+                "Answer": "No, \"X_train\" is not an output candidate."
+            },
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"X_test\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Logistic Regression\n\nlogreg = LogisticRegression()\n\nlogreg.fit(X_train, Y_train)\n\nY_pred = logreg.predict(X_test)\n\nlogreg.score(X_train, Y_train)\n```\nAnswer:\n",
+                "Answer": "No, \"X_test\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 15,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 16,
+        "inputs": [
+            "Y_train",
+            "X_train",
+            "X_test"
+        ],
+        "outputs": [
+            "Y_pred"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 17,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 18,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 19,
+        "inputs": [
+            "titanic_df",
+            "logreg"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 20,
+        "inputs": [
+            "Y_pred",
+            "test_df"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    }
+]

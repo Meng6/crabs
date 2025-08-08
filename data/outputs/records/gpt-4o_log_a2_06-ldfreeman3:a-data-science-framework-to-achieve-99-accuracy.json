@@ -1,0 +1,367 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "data_val",
+            "data_cleaner",
+            "data_raw",
+            "data1"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data_val",
+            "data_raw",
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data_cleaner",
+            "data_val",
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data_cleaner",
+            "data_val",
+            "data1"
+        ],
+        "outputs": [
+            "data1"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data_cleaner",
+            "data1"
+        ],
+        "outputs": [
+            "data1_x_dummy",
+            "data1_dummy",
+            "data1_x_bin",
+            "Target",
+            "data1_x_calc",
+            "data1_x"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data_val",
+            "data_raw",
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1_x_dummy",
+            "data1_dummy",
+            "data1_x_bin",
+            "Target",
+            "data1_x_calc",
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "Target",
+            "data1_x",
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [
+            "axis1"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "axis1",
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "correlation_heatmap"
+        ],
+        "defines_code": [
+            "correlation_heatmap"
+        ]
+    },
+    {
+        "inputs": [
+            "Target",
+            "data1_x_bin",
+            "data1"
+        ],
+        "outputs": [
+            "MLA_predict",
+            "cv_split",
+            "MLA_compare"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "MLA_compare"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [
+            "data1"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data1"
+        ],
+        "outputs": [
+            "Tree_Predict"
+        ],
+        "refers_code": [
+            "mytree"
+        ],
+        "defines_code": [
+            "mytree"
+        ]
+    },
+    {
+        "inputs": [
+            "Tree_Predict",
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "plot_confusion_matrix"
+        ],
+        "defines_code": [
+            "plot_confusion_matrix"
+        ]
+    },
+    {
+        "inputs": [
+            "cv_split",
+            "Target",
+            "data1_x_bin",
+            "data1"
+        ],
+        "outputs": [
+            "dtree",
+            "base_results",
+            "param_grid",
+            "tune_model"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "cv_split",
+            "tune_model",
+            "data1_x_bin",
+            "Target",
+            "param_grid",
+            "data1",
+            "dtree",
+            "base_results"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "dtree",
+            "data1_x_bin"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "MLA_predict"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "correlation_heatmap"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "cv_split",
+            "Target",
+            "data1_x_bin",
+            "data1"
+        ],
+        "outputs": [
+            "vote_est"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "cv_split",
+            "vote_est",
+            "data1_x_bin",
+            "Target",
+            "data1"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "cv_split",
+            "vote_est",
+            "data1_x_bin",
+            "Target",
+            "data1"
+        ],
+        "outputs": [
+            "grid_hard"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "data_val",
+            "grid_hard",
+            "data1_x_bin"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "mytree"
+        ],
+        "defines_code": []
+    }
+]

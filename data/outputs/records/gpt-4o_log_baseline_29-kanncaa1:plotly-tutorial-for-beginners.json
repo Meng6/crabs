@@ -1,0 +1,234 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "timesData"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "df"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "iplot"
+        ]
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "df2014",
+            "df2015",
+            "df2016"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "iplot"
+        ]
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "df2014"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "df2014"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "iplot"
+        ]
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "df2014"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "iplot"
+        ]
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "df2016"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "iplot",
+            "tools.make_subplots"
+        ]
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "df2016",
+            "pie1",
+            "pie1_list",
+            "labels"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "iplot"
+        ]
+    },
+    {
+        "inputs": [
+            "df2016"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "df2016",
+            "num_students_size",
+            "international_color"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "iplot"
+        ]
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "x2011",
+            "x2012"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "iplot"
+        ]
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "x2011"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "plt.subplots",
+            "WordCloud",
+            "plt.imshow",
+            "plt.axis",
+            "plt.savefig",
+            "plt.show"
+        ]
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "x2015"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "iplot"
+        ]
+    },
+    {
+        "inputs": [
+            "timesData"
+        ],
+        "outputs": [
+            "dataframe",
+            "data2015"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "iplot",
+            "ff.create_scatterplotmatrix"
+        ]
+    },
+    {
+        "inputs": [
+            "dataframe"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "iplot"
+        ]
+    },
+    {
+        "inputs": [
+            "dataframe"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "iplot"
+        ]
+    },
+    {
+        "inputs": [
+            "dataframe"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "iplot"
+        ]
+    }
+]

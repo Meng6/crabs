@@ -1,0 +1,612 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "app_train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "app_test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "missing_values_table"
+        ]
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "missing_values_table"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test",
+            "app_train"
+        ],
+        "outputs": [
+            "app_test",
+            "app_train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test",
+            "app_train"
+        ],
+        "outputs": [
+            "app_test",
+            "app_train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test",
+            "app_train"
+        ],
+        "outputs": [
+            "app_test",
+            "app_train",
+            "train_labels"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [
+            "app_train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test"
+        ],
+        "outputs": [
+            "app_test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [
+            "app_train"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [
+            "age_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "age_data"
+        ],
+        "outputs": [
+            "age_groups"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "age_groups"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [
+            "ext_data_corrs",
+            "ext_data"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "ext_data_corrs"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "age_data",
+            "ext_data"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "corr_func"
+        ]
+    },
+    {
+        "inputs": [
+            "app_test",
+            "app_train"
+        ],
+        "outputs": [
+            "poly_target",
+            "poly_features_test",
+            "poly_transformer",
+            "poly_features"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "poly_features_test",
+            "poly_features",
+            "poly_transformer"
+        ],
+        "outputs": [
+            "poly_features_test",
+            "poly_features"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "poly_transformer"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "poly_target",
+            "poly_transformer",
+            "poly_features"
+        ],
+        "outputs": [
+            "poly_features"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test",
+            "poly_features",
+            "poly_features_test",
+            "poly_transformer",
+            "app_train"
+        ],
+        "outputs": [
+            "app_test_poly",
+            "app_train_poly"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test",
+            "app_train"
+        ],
+        "outputs": [
+            "app_test_domain",
+            "app_train_domain"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test_domain"
+        ],
+        "outputs": [
+            "app_test_domain"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_train_domain"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test",
+            "app_train"
+        ],
+        "outputs": [
+            "features",
+            "train",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train",
+            "train_labels"
+        ],
+        "outputs": [
+            "log_reg"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "test",
+            "log_reg"
+        ],
+        "outputs": [
+            "log_reg_pred"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "log_reg_pred",
+            "app_test"
+        ],
+        "outputs": [
+            "submit"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "submit"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "random_forest"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "train",
+            "random_forest",
+            "features",
+            "train_labels",
+            "test"
+        ],
+        "outputs": [
+            "feature_importances",
+            "predictions"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test",
+            "predictions"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test_poly",
+            "app_train_poly"
+        ],
+        "outputs": [
+            "random_forest_poly",
+            "poly_features_test",
+            "poly_features"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "random_forest_poly",
+            "poly_features_test",
+            "train_labels",
+            "poly_features"
+        ],
+        "outputs": [
+            "predictions"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test",
+            "predictions"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test_domain",
+            "app_train_domain",
+            "train_labels"
+        ],
+        "outputs": [
+            "feature_importances_domain",
+            "app_train_domain",
+            "predictions"
+        ],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test",
+            "predictions"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "plot_feature_importances"
+        ]
+    },
+    {
+        "inputs": [
+            "feature_importances"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "plot_feature_importances"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "feature_importances_domain"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "plot_feature_importances"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [
+            "model"
+        ]
+    },
+    {
+        "inputs": [
+            "app_test",
+            "app_train"
+        ],
+        "outputs": [
+            "submission",
+            "fi"
+        ],
+        "refers_code": [
+            "model"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "fi"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "plot_feature_importances"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "submission"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "app_test_domain",
+            "app_train_domain",
+            "train_labels"
+        ],
+        "outputs": [
+            "submission_domain",
+            "fi_domain"
+        ],
+        "refers_code": [
+            "model"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "fi_domain"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "plot_feature_importances"
+        ],
+        "defines_code": []
+    },
+    {
+        "inputs": [
+            "submission_domain"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": []
+    }
+]

@@ -1,0 +1,344 @@
+[
+    {
+        "cell": 1,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 2,
+        "inputs": [],
+        "outputs": [
+            "test",
+            "train"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 3,
+        "inputs": [
+            "train"
+        ],
+        "outputs": [
+            "Y_train",
+            "X_train"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 4,
+        "inputs": [
+            "X_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"X_train\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Check the data\nX_train.isnull().any().describe()\n```\nAnswer:\n",
+                "Answer": "No, \"X_train\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 5,
+        "inputs": [
+            "test"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"test\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\ntest.isnull().any().describe()\n```\nAnswer:\n",
+                "Answer": "No, \"test\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 6,
+        "inputs": [
+            "test",
+            "X_train"
+        ],
+        "outputs": [
+            "X_train",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 7,
+        "inputs": [
+            "test",
+            "X_train"
+        ],
+        "outputs": [
+            "X_train",
+            "test"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 8,
+        "inputs": [
+            "Y_train"
+        ],
+        "outputs": [
+            "Y_train"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 9,
+        "inputs": [],
+        "outputs": [
+            "random_seed"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 10,
+        "inputs": [
+            "Y_train",
+            "random_seed",
+            "X_train"
+        ],
+        "outputs": [
+            "Y_val",
+            "X_val",
+            "X_train",
+            "Y_train"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 11,
+        "inputs": [
+            "X_train"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"X_train\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Some examples\ng = plt.imshow(X_train[0][:,:,0])\n```\nAnswer:\n",
+                "Answer": "No, \"X_train\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 12,
+        "inputs": [],
+        "outputs": [
+            "model"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 13,
+        "inputs": [],
+        "outputs": [
+            "optimizer"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 14,
+        "inputs": [
+            "optimizer",
+            "model"
+        ],
+        "outputs": [
+            "model"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"model\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Compile the model\nmodel.compile(optimizer = optimizer , loss = \"categorical_crossentropy\", metrics=[\"accuracy\"])\n```\nAnswer:\n",
+                "Answer": "Yes, \"model\" is an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 15,
+        "inputs": [],
+        "outputs": [
+            "learning_rate_reduction"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 16,
+        "inputs": [],
+        "outputs": [
+            "batch_size",
+            "epochs"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 17,
+        "inputs": [],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 18,
+        "inputs": [
+            "X_train"
+        ],
+        "outputs": [
+            "X_train",
+            "datagen"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"X_train\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# With data augmentation to prevent overfitting (accuracy 0.99286)\n\ndatagen = ImageDataGenerator(\n        featurewise_center=False,  # set input mean to 0 over the dataset\n        samplewise_center=False,  # set each sample mean to 0\n        featurewise_std_normalization=False,  # divide inputs by std of the dataset\n        samplewise_std_normalization=False,  # divide each input by its std\n        zca_whitening=False,  # apply ZCA whitening\n        rotation_range=10,  # randomly rotate images in the range (degrees, 0 to 180)\n        zoom_range = 0.1, # Randomly zoom image \n        width_shift_range=0.1,  # randomly shift images horizontally (fraction of total width)\n        height_shift_range=0.1,  # randomly shift images vertically (fraction of total height)\n        horizontal_flip=False,  # randomly flip images\n        vertical_flip=False)  # randomly flip images\n\n\ndatagen.fit(X_train)\n```\nAnswer:\n",
+                "Answer": "Yes, \"X_train\" is an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 19,
+        "inputs": [
+            "learning_rate_reduction",
+            "Y_train",
+            "epochs",
+            "X_train",
+            "model",
+            "batch_size",
+            "Y_val",
+            "datagen",
+            "X_val"
+        ],
+        "outputs": [
+            "model",
+            "history"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"X_val\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Fit the model\nhistory = model.fit_generator(datagen.flow(X_train,Y_train, batch_size=batch_size),\n                              epochs = epochs, validation_data = (X_val,Y_val),\n                              verbose = 2, steps_per_epoch=X_train.shape[0] // batch_size\n                              , callbacks=[learning_rate_reduction])\n```\nAnswer:\n",
+                "Answer": "No, \"X_val\" is not an output candidate."
+            },
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"Y_val\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Fit the model\nhistory = model.fit_generator(datagen.flow(X_train,Y_train, batch_size=batch_size),\n                              epochs = epochs, validation_data = (X_val,Y_val),\n                              verbose = 2, steps_per_epoch=X_train.shape[0] // batch_size\n                              , callbacks=[learning_rate_reduction])\n```\nAnswer:\n",
+                "Answer": "No, \"Y_val\" is not an output candidate."
+            },
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"model\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Fit the model\nhistory = model.fit_generator(datagen.flow(X_train,Y_train, batch_size=batch_size),\n                              epochs = epochs, validation_data = (X_val,Y_val),\n                              verbose = 2, steps_per_epoch=X_train.shape[0] // batch_size\n                              , callbacks=[learning_rate_reduction])\n```\nAnswer:\n",
+                "Answer": "Yes, \"model\" is an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 20,
+        "inputs": [
+            "history"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 21,
+        "inputs": [
+            "X_val",
+            "Y_val",
+            "model"
+        ],
+        "outputs": [
+            "Y_pred",
+            "Y_pred_classes",
+            "Y_true"
+        ],
+        "refers_code": [
+            "plot_confusion_matrix"
+        ],
+        "defines_code": [
+            "plot_confusion_matrix"
+        ],
+        "log": [
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"X_val\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Look at confusion matrix \n\ndef plot_confusion_matrix(cm, classes,\n                          normalize=False,\n                          title='Confusion matrix',\n                          cmap=plt.cm.Blues):\n    \"\"\"\n    This function prints and plots the confusion matrix.\n    Normalization can be applied by setting `normalize=True`.\n    \"\"\"\n    plt.imshow(cm, interpolation='nearest', cmap=cmap)\n    plt.title(title)\n    plt.colorbar()\n    tick_marks = np.arange(len(classes))\n    plt.xticks(tick_marks, classes, rotation=45)\n    plt.yticks(tick_marks, classes)\n\n    if normalize:\n        cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]\n\n    thresh = cm.max() / 2.\n    for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):\n        plt.text(j, i, cm[i, j],\n                 horizontalalignment=\"center\",\n                 color=\"white\" if cm[i, j] > thresh else \"black\")\n\n    plt.tight_layout()\n    plt.ylabel('True label')\n    plt.xlabel('Predicted label')\n\n# Predict the values from the validation dataset\nY_pred = model.predict(X_val)\n# Convert predictions classes to one hot vectors \nY_pred_classes = np.argmax(Y_pred,axis = 1) \n# Convert validation observations to one hot vectors\nY_true = np.argmax(Y_val,axis = 1) \n# compute the confusion matrix\nconfusion_mtx = confusion_matrix(Y_true, Y_pred_classes) \n# plot the confusion matrix\nplot_confusion_matrix(confusion_mtx, classes = range(10))\n```\nAnswer:\n",
+                "Answer": "No, \"X_val\" is not an output candidate."
+            },
+            {
+                "prompt4out": "Given a Python program block, determine if an object is an output candidate. An output candidate is a variable that is defined, updated, or mutated in the program block.\n\nImportant Cases:\n1. Method Calls (object.method()) or Function Calls (function(object))\n- If a method (or a function) modifies the object in place (e.g., updating data, changing the structure, or adjusting properties in place), the object is an output candidate.\n- If a method (or a function) does not modify the object (e.g., retrieving data, describing data, visualizing data, or accessing properties), the object is not an output candidate.\n- If a method (or a function) returns a new object (e.g., creating a copy) without modifying the original, the original object is not an output candidate.\n2. Reassignment (variable = ...)\nIf a variable is assigned a new value, it is an output candidate.\n\n\nQuestion:\nIn the following Python program block, is \"model\" an output candidate? Return the final answer in the form \"Yes(No), \"{x}\" is (not) an output candidate\" where \"{x}\" is the actual name of the variable.\n```python\n# Look at confusion matrix \n\ndef plot_confusion_matrix(cm, classes,\n                          normalize=False,\n                          title='Confusion matrix',\n                          cmap=plt.cm.Blues):\n    \"\"\"\n    This function prints and plots the confusion matrix.\n    Normalization can be applied by setting `normalize=True`.\n    \"\"\"\n    plt.imshow(cm, interpolation='nearest', cmap=cmap)\n    plt.title(title)\n    plt.colorbar()\n    tick_marks = np.arange(len(classes))\n    plt.xticks(tick_marks, classes, rotation=45)\n    plt.yticks(tick_marks, classes)\n\n    if normalize:\n        cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]\n\n    thresh = cm.max() / 2.\n    for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):\n        plt.text(j, i, cm[i, j],\n                 horizontalalignment=\"center\",\n                 color=\"white\" if cm[i, j] > thresh else \"black\")\n\n    plt.tight_layout()\n    plt.ylabel('True label')\n    plt.xlabel('Predicted label')\n\n# Predict the values from the validation dataset\nY_pred = model.predict(X_val)\n# Convert predictions classes to one hot vectors \nY_pred_classes = np.argmax(Y_pred,axis = 1) \n# Convert validation observations to one hot vectors\nY_true = np.argmax(Y_val,axis = 1) \n# compute the confusion matrix\nconfusion_mtx = confusion_matrix(Y_true, Y_pred_classes) \n# plot the confusion matrix\nplot_confusion_matrix(confusion_mtx, classes = range(10))\n```\nAnswer:\n",
+                "Answer": "No, \"model\" is not an output candidate."
+            }
+        ]
+    },
+    {
+        "cell": 22,
+        "inputs": [
+            "Y_pred_classes",
+            "X_val",
+            "Y_pred",
+            "Y_true"
+        ],
+        "outputs": [],
+        "refers_code": [
+            "display_errors"
+        ],
+        "defines_code": [
+            "display_errors"
+        ],
+        "log": []
+    },
+    {
+        "cell": 23,
+        "inputs": [
+            "test",
+            "model"
+        ],
+        "outputs": [
+            "results"
+        ],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    },
+    {
+        "cell": 24,
+        "inputs": [
+            "results"
+        ],
+        "outputs": [],
+        "refers_code": [],
+        "defines_code": [],
+        "log": []
+    }
+]

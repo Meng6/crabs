@@ -1,0 +1,275 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "df"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [
+            "X1",
+            "inertia"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "KMeans"
+        ]
+    },
+    {
+        "inputs": [
+            "inertia"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X1"
+        ],
+        "outputs": [
+            "algorithm",
+            "labels1",
+            "centroids1"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "KMeans"
+        ]
+    },
+    {
+        "inputs": [
+            "X1",
+            "algorithm"
+        ],
+        "outputs": [
+            "xx",
+            "yy",
+            "Z"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "Z",
+            "xx",
+            "yy",
+            "df",
+            "labels1",
+            "centroids1"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [
+            "X2",
+            "inertia"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "KMeans"
+        ]
+    },
+    {
+        "inputs": [
+            "inertia"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X2"
+        ],
+        "outputs": [
+            "algorithm",
+            "labels2",
+            "centroids2"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "KMeans"
+        ]
+    },
+    {
+        "inputs": [
+            "X2",
+            "algorithm"
+        ],
+        "outputs": [
+            "xx",
+            "yy",
+            "Z2"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "Z2",
+            "xx",
+            "yy",
+            "df",
+            "labels2",
+            "centroids2"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "df"
+        ],
+        "outputs": [
+            "X3",
+            "inertia"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "KMeans"
+        ]
+    },
+    {
+        "inputs": [
+            "inertia"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "X3"
+        ],
+        "outputs": [
+            "algorithm",
+            "labels3",
+            "centroids3"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "KMeans"
+        ]
+    },
+    {
+        "inputs": [
+            "df",
+            "labels3"
+        ],
+        "outputs": [
+            "trace1",
+            "data",
+            "layout",
+            "fig"
+        ],
+        "defines_code": [],
+        "refers_code": [
+            "go"
+        ]
+    }
+]

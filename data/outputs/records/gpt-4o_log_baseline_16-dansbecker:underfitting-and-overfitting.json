@@ -1,0 +1,41 @@
+[
+    {
+        "inputs": [],
+        "outputs": [],
+        "defines_code": [
+            "get_mae"
+        ],
+        "refers_code": []
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            "melbourne_file_path",
+            "melbourne_data",
+            "filtered_melbourne_data",
+            "y",
+            "melbourne_features",
+            "X",
+            "train_X",
+            "val_X",
+            "train_y",
+            "val_y"
+        ],
+        "defines_code": [],
+        "refers_code": []
+    },
+    {
+        "inputs": [
+            "train_X",
+            "val_X",
+            "train_y",
+            "val_y",
+            "get_mae"
+        ],
+        "outputs": [],
+        "defines_code": [],
+        "refers_code": [
+            "get_mae"
+        ]
+    }
+]
